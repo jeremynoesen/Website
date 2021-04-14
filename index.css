@@ -1,11 +1,14 @@
 body {
-  background-color: #737A80;
+  background-color: #1a1a1a;
   font-family: Arial, sans-serif;
 }
 
 .placeholder {
-  background-color: #434343;
+  background-color: #151515;
   color: #FFFFFF;
   text-align: center;
-  box-shadow: 0 0 20px #000000;
+  box-shadow: 0 0 40px #000000;
+  width: 500px;
+  height: 500px;
+  margin: 100px auto;
 }
