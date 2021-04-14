@@ -1,7 +1,7 @@
 @keyframes divzoom {
   0% {width: 0; height: 0; margin: 200px auto; color: #FFFFFF00; box-shadow: 0 0 0 #000000; background-color: #1a1a1a}
   50% {color: #FFFFFF00; box-shadow: 0 0 0 #000000; background-color: #1a1a1a}
-  100% {width: 500px; height: 500px; margin: 100px auto; visibility: visible; ; box-shadow: 0 0 40px #000000; background-color: #151515}
+  100% {width: 500px; height: 500px; margin: 100px auto; box-shadow: 0 0 40px #000000; background-color: #151515}
 }
 
 @keyframes imagezoom {
