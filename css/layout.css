@@ -5,8 +5,12 @@
 
 @keyframes hover-button {
   0% {background-color: #161616; box-shadow: 0 0 16px #000000}
-  100% {background-color: #0050e8; box-shadow: 0 0 16px #0d256f
-  }
+  100% {background-color: #0050e8; box-shadow: 0 0 16px #0d256f}
+}
+
+@keyframes show {
+  0% {opacity: 0}
+  100% {opacity: 1}
 }
 
 body {
@@ -15,6 +19,8 @@ body {
   color: #FFFFFF;
   text-align: center;
   line-height: 24px;
+  animation-name: show;
+  animation-duration: 0.25s;
 }
 
 .large-grid-item {
