@@ -1,7 +1,12 @@
-@keyframes hover {
+@keyframes hover-normal {
   0% {background-color: #161616; box-shadow: 0 0 16px #000000}
-  99% {background-color: #1b1b1b; box-shadow: 0 0 16px #343434}
   100% {background-color: #1b1b1b; box-shadow: 0 0 16px #343434}
+}
+
+@keyframes hover-button {
+  0% {background-color: #161616; box-shadow: 0 0 16px #000000}
+  100% {background-color: #0050e8; box-shadow: 0 0 16px #1964ff
+  }
 }
 
 body {
@@ -9,6 +14,7 @@ body {
   font-family: Arial, sans-serif;
   color: #FFFFFF;
   text-align: center;
+  line-height: 24px;
 }
 
 .grid {
@@ -40,7 +46,7 @@ body {
 .large-grid-item:hover {
   background-color: #1b1b1b;
   box-shadow: 0 0 16px #343434;
-  animation-name: hover;
+  animation-name: hover-normal;
   animation-duration: 0.25s;
 }
 
@@ -59,9 +65,9 @@ body {
 }
 
 .small-grid-item:hover {
-  background-color: #1b1b1b;
-  box-shadow: 0 0 16px #343434;
-  animation-name: hover;
+  background-color: #0050e8;
+  box-shadow: 0 0 16px #1964ff;
+  animation-name: hover-button;
   animation-duration: 0.25s;
 }
 
