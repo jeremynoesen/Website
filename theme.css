@@ -64,3 +64,13 @@ body {
   animation-name: hover-button;
   animation-duration: 0.25s;
 }
+
+.non-grid-item {
+  background-color: #262626;
+  box-shadow: 0 0 16px #000000;
+  color: inherit;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
