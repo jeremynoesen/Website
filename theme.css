@@ -1,10 +1,10 @@
 @keyframes hover-normal {
-  0% {background-color: #262626; box-shadow: 0 0 16px #000000}
-  100% {background-color: #2e2e2e; box-shadow: 0 0 16px #222222}
+  0% {background-color: #262636; box-shadow: 0 0 16px #000000}
+  100% {background-color: #2e2e3e; box-shadow: 0 0 16px #222232}
 }
 
 @keyframes hover-button {
-  0% {background-color: #262626; box-shadow: 0 0 16px #000000}
+  0% {background-color: #262636; box-shadow: 0 0 16px #000000}
   100% {background-color: #0050e8; box-shadow: 0 0 16px #0f2a86}
 }
 
@@ -14,7 +14,7 @@
 }
 
 body {
-  background-color: #101010;
+  background-color: #101020;
   font-family: Arial, sans-serif;
   color: #FFFFFF;
   text-align: center;
@@ -26,7 +26,7 @@ body {
 .large-grid-item {
   transition: 0.25s;
   padding: 30px;
-  background-color: #262626;
+  background-color: #262636;
   box-shadow: 0 0 16px #000000;
   color: inherit;
   text-decoration: none;
@@ -38,8 +38,8 @@ body {
 }
 
 .large-grid-item:hover {
-  background-color: #2e2e2e;
-  box-shadow: 0 0 16px #222222;
+  background-color: #2e2e3e;
+  box-shadow: 0 0 16px #222232;
   animation-name: hover-normal;
   animation-duration: 0.25s;
 }
@@ -47,7 +47,7 @@ body {
 .small-grid-item {
   transition: 0.25s;
   padding: 30px;
-  background-color: #262626;
+  background-color: #262636;
   box-shadow: 0 0 16px #000000;
   color: inherit;
   text-decoration: none;
@@ -66,7 +66,7 @@ body {
 }
 
 .non-grid-item {
-  background-color: #262626;
+  background-color: #262636;
   box-shadow: 0 0 16px #000000;
   color: inherit;
   text-decoration: none;
