@@ -16,18 +16,6 @@ body {
   line-height: 24px;
 }
 
-.grid {
-  display: grid;
-  margin: 100px auto;
-  width: 740px;
-  grid-template-areas:
-          'logobox logobox namebox namebox'
-          'logobox logobox namebox namebox'
-          'welcomebox welcomebox about resume'
-          'welcomebox welcomebox projects contact';
-  grid-gap: 16px;
-}
-
 .large-grid-item {
   transition: 0.25s;
   padding: 30px;
@@ -68,32 +56,4 @@ body {
   box-shadow: 0 0 16px #1964ff;
   animation-name: hover-button;
   animation-duration: 0.25s;
-}
-
-.logobox {
-  grid-area: logobox;
-}
-
-.namebox {
-  grid-area: namebox;
-}
-
-.welcomebox {
-  grid-area: welcomebox;
-}
-
-.about {
-  grid-area: about;
-}
-
-.resume {
-  grid-area: resume;
-}
-
-.projects {
-  grid-area: projects;
-}
-
-.contact {
-  grid-area: contact;
 }
