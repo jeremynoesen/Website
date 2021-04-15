@@ -1,0 +1,29 @@
+.grid {
+    display: grid;
+    margin: 100px auto;
+    width: 740px;
+    grid-template-areas:
+          'back about resume resume'
+          'projects contact resume resume';
+    grid-gap: 16px;
+}
+
+.back {
+    grid-area: back;
+}
+
+.about {
+    grid-area: about;
+}
+
+.projects {
+    grid-area: projects;
+}
+
+.contact {
+    grid-area: contact;
+}
+
+.resume {
+    grid-area: resume;
+}
