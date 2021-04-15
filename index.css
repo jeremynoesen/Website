@@ -5,8 +5,7 @@
 
 @keyframes hover-button {
   0% {background-color: #161616; box-shadow: 0 0 16px #000000}
-  100% {background-color: #0050e8; box-shadow: 0 0 16px #1964ff
-  }
+  100% {background-color: #0050e8; box-shadow: 0 0 16px #1964ff}
 }
 
 body {
