@@ -1,7 +1,7 @@
 # [jeremynoesen.github.io](https://jeremynoesen.github.io)
 
 ## About
-This is my personal website. There is not much on it at the moment, but I plan to use it as a blog or portfolio when I get the time.
+This is my personal website. Click the link above or in the repo description to view.
 
 ## Purpose
-I decided to create this website for reasons said above, and to dive into new territory for my coding abilities.
+I decided to create this website to mainly use as a portfolio, show information about myself, and to dive into new territory for my coding abilities.
