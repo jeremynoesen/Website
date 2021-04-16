@@ -4,7 +4,9 @@
     width: 740px;
     grid-template-areas:
           'back resume about about'
-          'projects contact about about';
+          'projects contact about about'
+          'portrait portrait intro intro'
+          'portrait portrait intro intro';
     grid-gap: 16px;
 }
 
@@ -26,4 +28,12 @@
 
 .about {
     grid-area: about;
+}
+
+.portrait {
+    grid-area: portrait;
+}
+
+.intro {
+    grid-area: intro;
 }
