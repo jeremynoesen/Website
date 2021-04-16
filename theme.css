@@ -1,15 +1,15 @@
 @keyframes hover-normal {
-  0% {background-color: #262636; box-shadow: 0 0 16px #000000}
-  100% {background-color: #2e2e3e; box-shadow: 0 0 16px #222232}
+  0% {filter: brightness(1)}
+  100% {filter: brightness(1.1)}
 }
 
 @keyframes hover-button {
-  0% {background-color: #262636; box-shadow: 0 0 16px #000000}
-  100% {background-color: #0050e8; box-shadow: 0 0 16px #0f2a86}
+  0% {background-color: #262636; filter: brightness(1)}
+  100% {background-color: #0041c1; filter: brightness(1.1)}
 }
 
 @keyframes show {
-  0% {opacity: 0; filter: blur(20px)}
+  0% {opacity: 0; filter: blur(10px)}
   100% {opacity: 1}
 }
 
@@ -38,10 +38,9 @@ body {
 }
 
 .large-grid-item:hover {
-  background-color: #2e2e3e;
-  box-shadow: 0 0 16px #222232;
   animation-name: hover-normal;
   animation-duration: 0.25s;
+  filter: brightness(1.1);
 }
 
 .small-grid-item {
@@ -59,10 +58,10 @@ body {
 }
 
 .small-grid-item:hover {
-  background-color: #0050e8;
-  box-shadow: 0 0 16px #0f2a86;
+  background-color: #0041c1;
   animation-name: hover-button;
   animation-duration: 0.25s;
+  filter: brightness(1.1);
 }
 
 .non-grid-item {
