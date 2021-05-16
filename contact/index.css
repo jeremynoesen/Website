@@ -64,3 +64,47 @@
 .logo {
     filter: brightness(0%) invert();
 }
+
+@keyframes hover-github {
+    0% {background-color: #262636}
+    100% {background-color: #000000}
+}
+
+.github:hover {
+    background-color: #000000;
+    animation-name: hover-github;
+    animation-duration: 0.25s;
+}
+
+@keyframes hover-discord {
+    0% {background-color: #262636}
+    100% {background-color: #5865f2}
+}
+
+.discord:hover {
+    background-color: #5865f2;
+    animation-name: hover-discord;
+    animation-duration: 0.25s;
+}
+
+@keyframes hover-twitter {
+    0% {background-color: #262636}
+    100% {background-color: #1DA1F2}
+}
+
+.twitter:hover {
+    background-color: #1DA1F2;
+    animation-name: hover-twitter;
+    animation-duration: 0.25s;
+}
+
+@keyframes hover-email {
+    0% {background-color: #262636}
+    100% {background-color: #EA4335}
+}
+
+.email:hover {
+    background-color: #EA4335;
+    animation-name: hover-email;
+    animation-duration: 0.25s;
+}
