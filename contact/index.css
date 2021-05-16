@@ -4,7 +4,8 @@
     width: 740px;
     grid-template-areas:
           'back about contact contact'
-          'resume projects contact contact';
+          'resume projects contact contact'
+          'github discord twitter email';
     grid-gap: 16px;
 }
 
@@ -26,4 +27,36 @@
 
 .contact {
     grid-area: contact;
+}
+
+.github {
+    grid-area: github;
+}
+
+.discord {
+    grid-area: discord;
+}
+
+.twitter {
+    grid-area: twitter;
+}
+
+.email {
+    grid-area: email;
+}
+
+.github-svg {
+    filter: invert() brightness(1000%);
+}
+
+.discord-svg {
+    filter: brightness(1000%);
+}
+
+.twitter-svg {
+    filter: invert() brightness(1000%);
+}
+
+.email-svg {
+    filter: invert() brightness(1000%);
 }
