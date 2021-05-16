@@ -4,8 +4,8 @@
 }
 
 @keyframes hover-button {
-  0% {background-color: #262636; filter: brightness(1)}
-  100% {background-color: #0041c1; filter: brightness(1.1)}
+  0% {background-color: #262636}
+  100% {background-color: #0050ea}
 }
 
 @keyframes show {
@@ -58,10 +58,9 @@ body {
 }
 
 .small-grid-item:hover {
-  background-color: #0041c1;
+  background-color: #0050ea;
   animation-name: hover-button;
   animation-duration: 0.25s;
-  filter: brightness(1.1);
 }
 
 .non-grid-item {
