@@ -27,3 +27,7 @@
 .projects {
     grid-area: projects;
 }
+
+.logo {
+    filter: brightness(0%) invert();
+}

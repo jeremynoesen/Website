@@ -37,3 +37,7 @@
 .intro {
     grid-area: intro;
 }
+
+.logo {
+    filter: brightness(0%) invert();
+}
