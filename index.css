@@ -20,6 +20,7 @@
 
 .welcomebox {
     grid-area: welcomebox;
+    text-align: left;
 }
 
 .about {

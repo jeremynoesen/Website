@@ -72,3 +72,23 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.wide-grid-item {
+  transition: 0.25s;
+  padding: 30px;
+  background-color: #262636;
+  box-shadow: 0 0 16px #000000;
+  color: inherit;
+  text-decoration: none;
+  width: 678px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wide-grid-item:hover {
+  animation-name: hover-normal;
+  animation-duration: 0.25s;
+  filter: brightness(1.1);
+}

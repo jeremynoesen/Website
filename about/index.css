@@ -6,7 +6,9 @@
           'back resume about about'
           'projects contact about about'
           'portrait portrait intro intro'
-          'portrait portrait intro intro';
+          'portrait portrait intro intro'
+          'biography biography biography biography'
+          'biography biography biography biography';
     grid-gap: 16px;
 }
 
@@ -36,6 +38,12 @@
 
 .intro {
     grid-area: intro;
+    text-align: left;
+}
+
+.biography {
+    grid-area: biography;
+    text-align: left;
 }
 
 .logo {
