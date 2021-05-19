@@ -7,8 +7,8 @@
           'projects contact about about'
           'portrait portrait intro intro'
           'portrait portrait intro intro'
-          'biography biography biography biography'
-          'biography biography biography biography';
+          'bio1 bio1 bio2 bio2'
+          'bio1 bio1 bio2 bio2';
     grid-gap: 16px;
 }
 
@@ -41,8 +41,13 @@
     text-align: left;
 }
 
-.biography {
-    grid-area: biography;
+.bio1 {
+    grid-area: bio1;
+    text-align: left;
+}
+
+.bio2 {
+    grid-area: bio2;
     text-align: left;
 }
 
