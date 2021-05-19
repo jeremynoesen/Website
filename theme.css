@@ -1,11 +1,21 @@
+:root {
+  /*theme colors*/
+  --background-color: #101320;
+  --box-color: rgba(255, 255, 255, 0.08);
+  --box-hover-color: rgba(255, 255, 255, 0.1);
+  --button-hover-color: #0050ea;
+  --shadow-color: #000000;
+  --text-color: #FFFFFF;
+}
+
 @keyframes hover-normal {
-  0% {filter: brightness(1)}
-  100% {filter: brightness(1.1)}
+  0% {background-color: var(--box-color)}
+  100% {background-color: var(--box-hover-color)}
 }
 
 @keyframes hover-button {
-  0% {background-color: #262636}
-  100% {background-color: #0050ea}
+  0% {background-color: var(--box-color)}
+  100% {background-color: var(--button-hover-color)}
 }
 
 @keyframes show {
@@ -14,9 +24,9 @@
 }
 
 body {
-  background-color: #101020;
+  background-color: var(--background-color);
   font-family: Arial, sans-serif;
-  color: #FFFFFF;
+  color: var(--text-color);
   text-align: center;
   line-height: 24px;
   animation-name: show;
@@ -26,8 +36,8 @@ body {
 .large-grid-item {
   transition: 0.25s;
   padding: 30px;
-  background-color: #262636;
-  box-shadow: 0 0 16px #000000;
+  background-color: var(--box-color);
+  box-shadow: 0 0 16px var(--shadow-color);
   color: inherit;
   text-decoration: none;
   width: 300px;
@@ -40,14 +50,14 @@ body {
 .large-grid-item:hover {
   animation-name: hover-normal;
   animation-duration: 0.25s;
-  filter: brightness(1.1);
+  background-color: var(--box-hover-color);
 }
 
 .small-grid-item {
   transition: 0.25s;
   padding: 30px;
-  background-color: #262636;
-  box-shadow: 0 0 16px #000000;
+  background-color: var(--box-color);
+  box-shadow: 0 0 16px var(--shadow-color);
   color: inherit;
   text-decoration: none;
   width: 112px;
@@ -58,14 +68,14 @@ body {
 }
 
 .small-grid-item:hover {
-  background-color: #0050ea;
+  background-color: var(--button-hover-color);
   animation-name: hover-button;
   animation-duration: 0.25s;
 }
 
 .non-grid-item {
-  background-color: #262636;
-  box-shadow: 0 0 16px #000000;
+  background-color: var(--box-color);
+  box-shadow: 0 0 16px var(--shadow-color);
   color: inherit;
   text-decoration: none;
   display: flex;
@@ -76,8 +86,8 @@ body {
 .large-wide-grid-item {
   transition: 0.25s;
   padding: 30px;
-  background-color: #262636;
-  box-shadow: 0 0 16px #000000;
+  background-color: var(--box-color);
+  box-shadow: 0 0 16px var(--shadow-color);
   color: inherit;
   text-decoration: none;
   width: 678px;
@@ -90,14 +100,14 @@ body {
 .large-wide-grid-item:hover {
   animation-name: hover-normal;
   animation-duration: 0.25s;
-  filter: brightness(1.1);
+  background-color: var(--box-hover-color);
 }
 
 .small-wide-grid-item {
   transition: 0.25s;
   padding: 30px;
-  background-color: #262636;
-  box-shadow: 0 0 16px #000000;
+  background-color: var(--box-color);
+  box-shadow: 0 0 16px var(--shadow-color);
   color: inherit;
   text-decoration: none;
   width: 300px;
@@ -108,7 +118,7 @@ body {
 }
 
 .small-wide-grid-item:hover {
-  background-color: #0050ea;
+  background-color: var(--button-hover-color);
   animation-name: hover-button;
   animation-duration: 0.25s;
 }
