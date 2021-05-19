@@ -64,7 +64,7 @@
 }
 
 @keyframes hover-github {
-    0% {background-color: #262636}
+    0% {background-color: var(--box-color)}
     100% {background-color: #000000}
 }
 
@@ -75,7 +75,7 @@
 }
 
 @keyframes hover-discord {
-    0% {background-color: #262636}
+    0% {background-color: var(--box-color)}
     100% {background-color: #5865f2}
 }
 
@@ -86,7 +86,7 @@
 }
 
 @keyframes hover-email {
-    0% {background-color: #262636}
+    0% {background-color: var(--box-color)}
     100% {background-color: #EA4335}
 }
 
