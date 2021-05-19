@@ -5,7 +5,8 @@
     grid-template-areas:
           'back about contact contact'
           'resume projects contact contact'
-          'github discord twitter email';
+          'info info github github'
+          'info info discord email';
     grid-gap: 16px;
 }
 
@@ -37,12 +38,13 @@
     grid-area: discord;
 }
 
-.twitter {
-    grid-area: twitter;
-}
-
 .email {
     grid-area: email;
+}
+
+.info {
+    grid-area: info;
+    text-align: left;
 }
 
 .github-svg {
@@ -51,10 +53,6 @@
 
 .discord-svg {
     filter: brightness(1000%);
-}
-
-.twitter-svg {
-    filter: invert() brightness(1000%);
 }
 
 .email-svg {
@@ -84,17 +82,6 @@
 .discord:hover {
     background-color: #5865f2;
     animation-name: hover-discord;
-    animation-duration: 0.25s;
-}
-
-@keyframes hover-twitter {
-    0% {background-color: #262636}
-    100% {background-color: #1DA1F2}
-}
-
-.twitter:hover {
-    background-color: #1DA1F2;
-    animation-name: hover-twitter;
     animation-duration: 0.25s;
 }
 
