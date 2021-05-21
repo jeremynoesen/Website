@@ -5,16 +5,16 @@
     grid-template-areas:
           'back about projects projects'
           'resume contact projects projects'
-          'fav fav favinfo favinfo'
-          'fav fav favinfo favinfo'
+          'fav fav fav fav'
+          'fav fav fav fav'
           'p3d p3d p3dinfo p3dinfo'
           'p3d p3d p3dinfo p3dinfo'
           'bonebot bonebot bonebotinfo bonebotinfo'
           'bonebot bonebot bonebotinfo bonebotinfo'
-          'mc mc mcinfo mcinfo'
-          'mc mc mcinfo mcinfo'
-          'school school schoolinfo schoolinfo'
-          'school school schoolinfo schoolinfo';
+          'mc mc mc mc'
+          'mc mc mc mc'
+          'school school school school'
+          'school school school school';
     grid-gap: 16px;
 }
 
@@ -40,28 +40,16 @@
 
 .fav {
     grid-area: fav;
-}
-
-.favinfo {
-    grid-area: favinfo;
     text-align: left;
 }
 
 .mc {
     grid-area: mc;
-}
-
-.mcinfo {
-    grid-area: mcinfo;
     text-align: left;
 }
 
 .school {
     grid-area: school;
-}
-
-.schoolinfo {
-    grid-area: schoolinfo;
     text-align: left;
 }
 
