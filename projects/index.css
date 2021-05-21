@@ -11,6 +11,8 @@
           'p3d p3d p3dinfo p3dinfo'
           'bonebot bonebot bonebotinfo bonebotinfo'
           'bonebot bonebot bonebotinfo bonebotinfo'
+          'site site siteinfo siteinfo'
+          'site site siteinfo siteinfo'
           'mc mc mc mc'
           'mc mc mc mc'
           'couriernew couriernew couriernewinfo couriernewinfo'
@@ -78,6 +80,15 @@
 
 .bonebotinfo {
     grid-area: bonebotinfo;
+    text-align: left;
+}
+
+.site {
+    grid-area: site;
+}
+
+.siteinfo {
+    grid-area: siteinfo;
     text-align: left;
 }
 
