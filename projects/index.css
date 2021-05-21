@@ -4,7 +4,13 @@
     width: 740px;
     grid-template-areas:
           'back about projects projects'
-          'resume contact projects projects';
+          'resume contact projects projects'
+          'best best bestinfo bestinfo'
+          'best best bestinfo bestinfo'
+          'school school schoolinfo schoolinfo'
+          'school school schoolinfo schoolinfo'
+          'other other otherinfo otherinfo'
+          'other other otherinfo otherinfo';
     grid-gap: 16px;
 }
 
@@ -26,6 +32,33 @@
 
 .projects {
     grid-area: projects;
+}
+
+.best {
+    grid-area: best;
+}
+
+.bestinfo {
+    grid-area: bestinfo;
+    text-align: left;
+}
+
+.school {
+    grid-area: school;
+}
+
+.schoolinfo {
+    grid-area: schoolinfo;
+    text-align: left;
+}
+
+.other {
+    grid-area: other;
+}
+
+.otherinfo {
+    grid-area: otherinfo;
+    text-align: left;
 }
 
 .logo {
