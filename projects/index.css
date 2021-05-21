@@ -25,6 +25,8 @@
           'school school school school'
           'chirrup chirrup chirrupinfo chirrupinfo'
           'chirrup chirrup chirrupinfo chirrupinfo'
+          'delbot delbot delbotinfo delbotinfo'
+          'delbot delbot delbotinfo delbotinfo'
           'cannonpong cannonpong cannonponginfo cannonponginfo'
           'cannonpong cannonpong cannonponginfo cannonponginfo';
     grid-gap: 16px;
@@ -126,6 +128,16 @@
 
 .chirrupinfo {
     grid-area: chirrupinfo;
+    text-align: left;
+}
+
+.delbot {
+    grid-area: delbot;
+    color: var(--box-color)
+}
+
+.delbotinfo {
+    grid-area: delbotinfo;
     text-align: left;
 }
 
