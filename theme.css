@@ -1,8 +1,8 @@
 :root {
   /*theme colors*/
-  --background-color: #101320;
-  --box-color: rgba(255, 255, 255, 0.08);
-  --box-hover-color: rgba(255, 255, 255, 0.1);
+  --background-color: #070c1d;
+  --box-color: rgba(255, 255, 255, 0.06);
+  --box-hover-color: rgba(255, 255, 255, 0.08);
   --button-hover-color: #0050ea;
   --shadow-color: #000000;
   --text-color: #FFFFFF;
