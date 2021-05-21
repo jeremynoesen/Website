@@ -1,24 +1,37 @@
 const sound = "https://f000.backblazeb2.com/b2api/v1/b2_download_file_by_id?fileId=4_z9b2a7e929faa13a473850510_f1086ce5cf11d34ee_d20210310_m052952_c000_v0001075_t0018";
 
 let player;
-let cursorChanged = false;
-let last_3_keys = ["", "", ""];
+let changed = false;
+let buffer = ["", "", ""];
+
+let styles = `* {
+                cursor: url(https://ani.cursors-4u.net/games/gam-16/gam1570.cur), url(https://ani.cursors-4u.net/games/gam-16/gam1570.cur), auto !important;
+              }`;
+
+let styleSheet = document.createElement("style");
+styleSheet.type = "text/css";
+styleSheet.innerText = styles;
+
+let oldColor = getComputedStyle(document.documentElement).getPropertyValue("--button-hover-color");
 
 function keyEvent(event) {
-    last_3_keys.shift();
-    last_3_keys.push(event.key);
+    buffer.shift();
+    buffer.push(event.key);
 
-    if (last_3_keys.join("") === "sus") {
-        if (cursorChanged === false) {
+    if (buffer.join("") === "sus") {
+        if (changed === false) {
             player.load();
             player.play();
-            document.body.style.cursor = "url(https://ani.cursors-4u.net/games/gam-16/gam1570.cur),auto";
+            document.head.appendChild(styleSheet);
             document.body.style.background = "#220000";
-            cursorChanged = true;
+            document.documentElement.style.setProperty("--button-hover-color", "#990000");
+            changed = true;
         } else {
-            document.body.style.cursor = "auto";
-            document.body.style.background = getComputedStyle(document.documentElement).getPropertyValue("--background-color")
-            cursorChanged = false;
+            player.pause();
+            document.head.removeChild(styleSheet);
+            document.body.style.background = getComputedStyle(document.documentElement).getPropertyValue("--background-color");
+            document.documentElement.style.setProperty("--button-hover-color", oldColor);
+            changed = false;
         }
     }
 }
