@@ -13,6 +13,12 @@
           'bonebot bonebot bonebotinfo bonebotinfo'
           'mc mc mc mc'
           'mc mc mc mc'
+          'couriernew couriernew couriernewinfo couriernewinfo'
+          'couriernew couriernew couriernewinfo couriernewinfo'
+          'volleyball volleyball volleyballinfo volleyballinfo'
+          'volleyball volleyball volleyballinfo volleyballinfo'
+          'hardcorelists hardcorelists hardcorelistsinfo hardcorelistsinfo'
+          'hardcorelists hardcorelists hardcorelistsinfo hardcorelistsinfo'
           'school school school school'
           'school school school school';
     grid-gap: 16px;
@@ -68,6 +74,33 @@
 
 .bonebotinfo {
     grid-area: bonebotinfo;
+    text-align: left;
+}
+
+.couriernew {
+    grid-area: couriernew;
+}
+
+.couriernewinfo {
+    grid-area: couriernewinfo;
+    text-align: left;
+}
+
+.volleyball {
+    grid-area: volleyball;
+}
+
+.volleyballinfo {
+    grid-area: volleyballinfo;
+    text-align: left;
+}
+
+.hardcorelists {
+    grid-area: hardcorelists;
+}
+
+.hardcorelistsinfo {
+    grid-area: hardcorelistsinfo;
     text-align: left;
 }
 
