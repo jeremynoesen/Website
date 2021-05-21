@@ -20,7 +20,11 @@
           'hardcorelists hardcorelists hardcorelistsinfo hardcorelistsinfo'
           'hardcorelists hardcorelists hardcorelistsinfo hardcorelistsinfo'
           'school school school school'
-          'school school school school';
+          'school school school school'
+          'chirrup chirrup chirrupinfo chirrupinfo'
+          'chirrup chirrup chirrupinfo chirrupinfo'
+          'cannonpong cannonpong cannonponginfo cannonponginfo'
+          'cannonpong cannonpong cannonponginfo cannonponginfo';
     grid-gap: 16px;
 }
 
@@ -101,6 +105,25 @@
 
 .hardcorelistsinfo {
     grid-area: hardcorelistsinfo;
+    text-align: left;
+}
+
+.chirrup {
+    grid-area: chirrup;
+    color: var(--box-color)
+}
+
+.chirrupinfo {
+    grid-area: chirrupinfo;
+    text-align: left;
+}
+
+.cannonpong {
+    grid-area: cannonpong;
+}
+
+.cannonponginfo {
+    grid-area: cannonponginfo;
     text-align: left;
 }
 
