@@ -35,19 +35,15 @@ let style2 = `:root {
                 --text-color: #B54618;
               }
               
-              body {
-                font-family: Comic Sans MS;
-              }
-              
               .notfound {
+                @import url(//db.onlinewebfonts.com/c/7cc6719bd5f0310be3150ba33418e72e?family=Comic+Sans+MS);
+                font-family: "Comic Sans MS";
                 background-image: url(https://i.kym-cdn.com/photos/images/newsfeed/001/018/903/29e.jpg);
                 background-size: 250px;
                 background-repeat: no-repeat;
                 background-position-x: 85%;
                 background-position-y: 50%;
                 justify-content: unset;
-                align-items: unset;
-                text-align: left;
               }`;
 
 let style3 = `.notfound {
