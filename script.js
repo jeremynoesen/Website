@@ -28,6 +28,7 @@ function keyEvent(event) {
             document.getElementById("logo").src = "https://i1.sndcdn.com/artworks-Uii8SMJvNPxy8ePA-romBoQ-t500x500.jpg";
             document.getElementById("logo").width = 360;
             document.getElementById("logo").height = 360;
+            document.getElementById("logo").style.borderRadius = getComputedStyle(document.documentElement).getPropertyValue("--radius");
             buffer = ["", "", ""];
             changed = true;
         } else {

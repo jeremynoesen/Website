@@ -54,3 +54,7 @@
 .logo {
     filter: brightness(0%) invert();
 }
+
+.image {
+    border-radius: var(--radius);
+}

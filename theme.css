@@ -6,16 +6,7 @@
   --button-hover-color: #0050ea;
   --shadow-color: #000000;
   --text-color: #FFFFFF;
-}
-
-@keyframes hover-normal {
-  0% {background-color: var(--box-color)}
-  100% {background-color: var(--box-hover-color)}
-}
-
-@keyframes hover-button {
-  0% {background-color: var(--box-color)}
-  100% {background-color: var(--button-hover-color)}
+  --radius: 24px;
 }
 
 @keyframes show {
@@ -45,11 +36,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: var(--radius);
 }
 
 .large-grid-item:hover {
-  animation-name: hover-normal;
-  animation-duration: 0.25s;
   background-color: var(--box-hover-color);
 }
 
@@ -65,12 +55,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: var(--radius);
 }
 
 .small-grid-item:hover {
   background-color: var(--button-hover-color);
-  animation-name: hover-button;
-  animation-duration: 0.25s;
 }
 
 .non-grid-item {
@@ -95,11 +84,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: var(--radius);
 }
 
 .large-wide-grid-item:hover {
-  animation-name: hover-normal;
-  animation-duration: 0.25s;
   background-color: var(--box-hover-color);
 }
 
@@ -115,10 +103,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: var(--radius);
 }
 
 .small-wide-grid-item:hover {
   background-color: var(--button-hover-color);
-  animation-name: hover-button;
-  animation-duration: 0.25s;
 }
