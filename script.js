@@ -17,6 +17,9 @@ let style1 = `* {
                 background-image: url(https://i1.sndcdn.com/artworks-Uii8SMJvNPxy8ePA-romBoQ-t500x500.jpg);
                 background-size: cover;
                 background-position-y: 20%;
+                justify-content: unset;
+                align-items: unset;
+                text-align: left;
               }
               
               .notfound:hover {
@@ -38,10 +41,27 @@ let style2 = `:root {
               
               .notfound {
                 background-image: url(https://i.kym-cdn.com/photos/images/newsfeed/001/018/903/29e.jpg);
-                background-size: 150px;
+                background-size: 250px;
                 background-repeat: no-repeat;
-                background-position-x: 5%;
+                background-position-x: 85%;
                 background-position-y: 50%;
+                justify-content: unset;
+                align-items: unset;
+                text-align: left;
+              }`;
+
+let style3 = `.notfound {
+                background-image: url(https://raw.githubusercontent.com/jeremynoesen/Pseudo3D/physics-rewrite/img/Perspective.gif);
+                background-size: cover;
+                background-position-y: 100%;
+                justify-content: unset;
+                align-items: unset;
+                text-align: left;
+                image-rendering: pixelated;
+              }
+              
+              .notfound:hover {
+                filter: brightness(1.1);
               }`;
 
 let styleSheet = document.createElement("style");
@@ -73,6 +93,18 @@ function keyEvent(event) {
             document.head.appendChild(styleSheet);
             buffer = ["", "", ""];
             status = 2;
+        } else {
+            document.head.removeChild(styleSheet);
+            buffer = ["", "", ""];
+            status = 0;
+        }
+    } else if (buffer.join("") === "p3d") {
+        if (status !== 3) {
+            player.pause();
+            styleSheet.innerText = style3;
+            document.head.appendChild(styleSheet);
+            buffer = ["", "", ""];
+            status = 3;
         } else {
             document.head.removeChild(styleSheet);
             buffer = ["", "", ""];
