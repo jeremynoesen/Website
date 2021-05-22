@@ -20,6 +20,8 @@ function keyEvent(event) {
 
     if (buffer.join("") === "sus") {
         if (changed === false) {
+            player.src = sound;
+            player.loop = true;
             player.load();
             player.play();
             document.head.appendChild(styleSheet);
@@ -47,7 +49,5 @@ function keyEvent(event) {
 
 window.onload = () => {
     player = document.querySelector("#player");
-    player.src = sound;
-    player.loop = true;
     document.addEventListener("keypress", keyEvent);
 }
