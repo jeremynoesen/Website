@@ -9,13 +9,14 @@ let style1 = `* {
               }
 
               :root {
-                --background-color: #220000;
+                --background-color: #00000000;
+                background-image: linear-gradient(to right, #221800, #220000, #001822);
               }
               
               .notfound {
                 background-image: url(https://i1.sndcdn.com/artworks-Uii8SMJvNPxy8ePA-romBoQ-t500x500.jpg);
                 background-size: cover;
-                background-position-y: 25%;
+                background-position-y: 20%;
               }
               
               .notfound:hover {
