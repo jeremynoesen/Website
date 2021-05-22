@@ -2,11 +2,6 @@
     display: grid;
     margin: var(--margin-size);
     width: var(--grid-width);
-    grid-template-areas:
-          'logobox logobox namebox namebox'
-          'logobox logobox namebox namebox'
-          'welcomebox welcomebox about resume'
-          'welcomebox welcomebox projects contact';
     grid-gap: var(--gap-size);
 }
 
@@ -37,4 +32,29 @@
 
 .contact {
     grid-area: contact;
+}
+
+@media screen and (max-width: 740px) {
+    .grid {
+        grid-template-areas:
+          'logobox logobox'
+          'logobox logobox'
+          'namebox namebox'
+          'namebox namebox'
+          'welcomebox welcomebox'
+          'welcomebox welcomebox'
+          'about resume'
+          'projects contact';
+        width: 360px;
+    }
+}
+
+@media screen and (min-width: 740px) {
+    .grid {
+        grid-template-areas:
+          'logobox logobox namebox namebox'
+          'logobox logobox namebox namebox'
+          'welcomebox welcomebox about resume'
+          'welcomebox welcomebox projects contact';
+    }
 }
