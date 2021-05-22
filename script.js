@@ -4,8 +4,23 @@ let player;
 let changed = false;
 let buffer = ["", "", ""];
 
-let styles = `* {
+let styles = `
+              * {
                 cursor: url(https://ani.cursors-4u.net/games/gam-16/gam1570.cur), url(https://ani.cursors-4u.net/games/gam-16/gam1570.cur), auto !important;
+              }
+
+              :root {
+                --background-color: #220000;
+              }
+              
+              .notfound {
+                background-image: url(https://i1.sndcdn.com/artworks-Uii8SMJvNPxy8ePA-romBoQ-t500x500.jpg);
+                background-size: cover;
+                background-position-y: 25%;
+              }
+              
+              .notfound:hover {
+                filter: brightness(1.1);
               }`;
 
 let styleSheet = document.createElement("style");
@@ -23,13 +38,11 @@ function keyEvent(event) {
             player.load();
             player.play();
             document.head.appendChild(styleSheet);
-            document.body.style.background = "#220000";
             buffer = ["", "", ""];
             changed = true;
         } else {
             player.pause();
             document.head.removeChild(styleSheet);
-            document.body.style.background = getComputedStyle(document.documentElement).getPropertyValue("--background-color");
             buffer = ["", "", ""];
             changed = false;
         }
