@@ -25,12 +25,18 @@ function keyEvent(event) {
             document.head.appendChild(styleSheet);
             document.body.style.background = "#220000";
             document.documentElement.style.setProperty("--button-hover-color", "#990000");
+            document.getElementById("logo").src = "https://i1.sndcdn.com/artworks-Uii8SMJvNPxy8ePA-romBoQ-t500x500.jpg";
+            document.getElementById("logo").width = 360;
+            document.getElementById("logo").height = 360;
             changed = true;
         } else {
             player.pause();
             document.head.removeChild(styleSheet);
             document.body.style.background = getComputedStyle(document.documentElement).getPropertyValue("--background-color");
             document.documentElement.style.setProperty("--button-hover-color", oldColor);
+            document.getElementById("logo").src = "resources/Logo.png";
+            document.getElementById("logo").width = 250;
+            document.getElementById("logo").height = 250;
             changed = false;
         }
     }
