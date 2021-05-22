@@ -1,13 +1,13 @@
 .grid {
     display: grid;
-    margin: 100px auto;
-    width: 740px;
+    margin: var(--margin-size);
+    width: var(--grid-width);
     grid-template-areas:
           'back about contact contact'
           'resume projects contact contact'
           'info info github github'
           'info info discord email';
-    grid-gap: 16px;
+    grid-gap: var(--gap-size);
 }
 
 .back {

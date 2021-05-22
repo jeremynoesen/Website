@@ -1,13 +1,13 @@
 .grid {
     display: grid;
-    margin: 100px auto;
-    width: 740px;
+    margin: var(--margin-size);
+    width: var(--grid-width);
     grid-template-areas:
           'logobox logobox namebox namebox'
           'logobox logobox namebox namebox'
           'welcomebox welcomebox about resume'
           'welcomebox welcomebox projects contact';
-    grid-gap: 16px;
+    grid-gap: var(--gap-size);
 }
 
 .logobox {

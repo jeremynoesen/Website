@@ -1,12 +1,12 @@
 .grid {
     display: grid;
-    margin: 100px auto;
-    width: 740px;
+    margin: var(--margin-size);
+    width: var(--grid-width);
     grid-template-areas:
           'back about resume resume'
           'projects contact resume resume'
           'pdf pdf pdf pdf';
-    grid-gap: 16px;
+    grid-gap: var(--gap-size);
 }
 
 .back {

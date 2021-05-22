@@ -1,7 +1,7 @@
 .grid {
     display: grid;
-    margin: 100px auto;
-    width: 740px;
+    margin: var(--margin-size);
+    width: var(--grid-width);
     grid-template-areas:
           'back resume about about'
           'projects contact about about'
@@ -9,7 +9,7 @@
           'portrait portrait intro intro'
           'bio1 bio1 bio2 bio2'
           'bio1 bio1 bio2 bio2';
-    grid-gap: 16px;
+    grid-gap: var(--gap-size);
 }
 
 .back {
@@ -56,5 +56,5 @@
 }
 
 .image {
-    border-radius: var(--radius);
+    border-radius: var(--border-radius);
 }

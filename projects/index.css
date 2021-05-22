@@ -1,7 +1,7 @@
 .grid {
     display: grid;
-    margin: 100px auto;
-    width: 740px;
+    margin: var(--margin-size);
+    width: var(--grid-width);
     grid-template-areas:
           'back about projects projects'
           'resume contact projects projects'
@@ -29,7 +29,7 @@
           'delbot delbot delbotinfo delbotinfo'
           'cannonpong cannonpong cannonponginfo cannonponginfo'
           'cannonpong cannonpong cannonponginfo cannonponginfo';
-    grid-gap: 16px;
+    grid-gap: var(--gap-size);
 }
 
 .back {

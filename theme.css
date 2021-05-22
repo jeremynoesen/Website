@@ -6,7 +6,16 @@
   --button-hover-color: #0050ea;
   --shadow-color: #000000;
   --text-color: #FFFFFF;
-  --radius: 24px;
+  --border-radius: 24px;
+  --gap-size: 16px;
+  --margin-size: 100px auto;
+  --grid-width: 740px;
+  --animation-speed: 0.25s;
+  --padding: 30px;
+  --shadow-size: 16px;
+  --wide-box-size: 678px;
+  --large-box-size: 300px;
+  --small-box-size: 112px;
 }
 
 @keyframes show {
@@ -21,22 +30,22 @@ body {
   text-align: center;
   line-height: 24px;
   animation-name: show;
-  animation-duration: 0.25s;
+  animation-duration: var(--animation-speed);
 }
 
 .large-grid-item {
-  transition: 0.25s;
-  padding: 30px;
+  transition: var(--animation-speed);
+  padding: var(--padding);
   background-color: var(--box-color);
-  box-shadow: 0 0 16px var(--shadow-color);
+  box-shadow: 0 0 var(--shadow-size) var(--shadow-color);
   color: inherit;
   text-decoration: none;
-  width: 300px;
-  height: 300px;
+  width: var(--large-box-size);
+  height: var(--large-box-size);
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: var(--radius);
+  border-radius: var(--border-radius);
 }
 
 .large-grid-item:hover {
@@ -44,18 +53,18 @@ body {
 }
 
 .small-grid-item {
-  transition: 0.25s;
-  padding: 30px;
+  transition: var(--animation-speed);
+  padding: var(--padding);
   background-color: var(--box-color);
-  box-shadow: 0 0 16px var(--shadow-color);
+  box-shadow: 0 0 var(--shadow-size) var(--shadow-color);
   color: inherit;
   text-decoration: none;
-  width: 112px;
-  height: 112px;
+  width: var(--small-box-size);
+  height: var(--small-box-size);
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: var(--radius);
+  border-radius: var(--border-radius);
 }
 
 .small-grid-item:hover {
@@ -64,7 +73,7 @@ body {
 
 .non-grid-item {
   background-color: var(--box-color);
-  box-shadow: 0 0 16px var(--shadow-color);
+  box-shadow: 0 0 var(--shadow-size) var(--shadow-color);
   color: inherit;
   text-decoration: none;
   display: flex;
@@ -73,18 +82,18 @@ body {
 }
 
 .large-wide-grid-item {
-  transition: 0.25s;
-  padding: 30px;
+  transition: var(--animation-speed);
+  padding: var(--padding);
   background-color: var(--box-color);
-  box-shadow: 0 0 16px var(--shadow-color);
+  box-shadow: 0 0 var(--shadow-size) var(--shadow-color);
   color: inherit;
   text-decoration: none;
-  width: 678px;
-  height: 300px;
+  width: var(--wide-box-size);
+  height: var(--large-box-size);
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: var(--radius);
+  border-radius: var(--border-radius);
 }
 
 .large-wide-grid-item:hover {
@@ -92,18 +101,18 @@ body {
 }
 
 .small-wide-grid-item {
-  transition: 0.25s;
-  padding: 30px;
+  transition: var(--animation-speed);
+  padding: var(--padding);
   background-color: var(--box-color);
-  box-shadow: 0 0 16px var(--shadow-color);
+  box-shadow: 0 0 var(--shadow-size) var(--shadow-color);
   color: inherit;
   text-decoration: none;
-  width: 300px;
-  height: 112px;
+  width: var(--large-box-size);
+  height: var(--small-box-size);
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: var(--radius);
+  border-radius: var(--border-radius);
 }
 
 .small-wide-grid-item:hover {
