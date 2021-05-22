@@ -39,5 +39,6 @@ function keyEvent(event) {
 window.onload = () => {
     player = document.querySelector("#player");
     player.src = sound;
+    player.loop = true;
     document.addEventListener("keypress", keyEvent);
 }
