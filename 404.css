@@ -1,0 +1,13 @@
+.grid {
+    display: grid;
+    margin: 100px auto;
+    width: 740px;
+    grid-template-areas:
+          'notfound notfound notfound notfound'
+          'notfound notfound notfound notfound';
+    grid-gap: 16px;
+}
+
+.notfound {
+    grid-area: notfound;
+}
