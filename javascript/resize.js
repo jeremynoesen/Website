@@ -24,7 +24,7 @@ function resizeEvent(event) {
         document.body.style.setProperty("--large-box-size", ((width / 2) - 68) + "px");
         document.body.style.setProperty("--small-box-size", ((width / 4) - 72) + "px");
         document.body.style.setProperty("--margin-size", "0px auto");
-        document.body.style.fontSize = (width / 35) + "px"
+        document.body.style.fontSize = (width / 40) + "px"
         document.body.style.lineHeight = (width / 30) + "px"
     } else if (width > 1024) {
         document.body.style.setProperty("--grid-width", gridWidth);
