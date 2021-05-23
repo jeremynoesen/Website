@@ -10,7 +10,10 @@ let padding;
 let fontSize;
 let lineSpacing;
 
-window.onload = () => {
+/**
+ * initialize original values for variables and register event
+ */
+function resizeInit() {
     gridWidth = document.body.style.getPropertyValue("--grid-width");
     wideSize = document.body.style.getPropertyValue("--wide-box-size");
     largeSize = document.body.style.getPropertyValue("--large-box-size");
@@ -27,6 +30,9 @@ window.onload = () => {
     window.addEventListener("resize", resizeEvent);
 }
 
+/**
+ * on resize, dynamically size all page elements
+ */
 function resizeEvent() {
     let width = window.innerWidth;
     if(width <= 1080 && width >= 540) {
@@ -67,4 +73,11 @@ function resizeEvent() {
         document.body.style.setProperty("--padding", padding);
         document.body.style.setProperty("--pdf-height", (1.15 * 736) + "px"); //grid width
     }
+}
+
+/**
+ * initialize on load
+ */
+window.onload = () => {
+    resizeInit();
 }

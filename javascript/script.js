@@ -44,6 +44,11 @@ let style2 = `:root {
 
 let styleSheet = document.createElement("style");
 
+/**
+ * listen for keystroke patterns
+ *
+ * @param event key event
+ */
 function keyEvent(event) {
     buffer.shift();
     buffer.push(event.key);
@@ -79,7 +84,18 @@ function keyEvent(event) {
     }
 }
 
-window.onload = () => {
+/**
+ * initialize the listener
+ */
+function scriptInit() {
     player = document.querySelector("#player");
     document.addEventListener("keypress", keyEvent);
+}
+
+/**
+ * load script on load, as well as resize script
+ */
+window.onload = () => {
+    scriptInit();
+    resizeInit();
 }
