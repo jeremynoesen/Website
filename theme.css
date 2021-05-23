@@ -74,16 +74,6 @@ body {
   background-color: var(--button-hover-color);
 }
 
-.non-grid-item {
-  background-color: var(--box-color);
-  box-shadow: 0 0 var(--shadow-size) var(--shadow-color);
-  color: inherit;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .large-wide-grid-item {
   transition: var(--animation-speed);
   padding: var(--padding);

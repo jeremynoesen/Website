@@ -44,7 +44,13 @@ let style2 = `:root {
                 justify-content: unset;
               }`;
 
-let style3 = `.notfound {
+let style3 = `:root {
+                --background-color: #00000000;
+                background-image: linear-gradient(#080022, #221800);
+                background-attachment: fixed;
+              }
+              
+              .notfound {
                 background-image: url(https://raw.githubusercontent.com/jeremynoesen/Pseudo3D/physics-rewrite/img/Perspective.gif);
                 background-size: cover;
                 background-position-y: 100%;
