@@ -7,17 +7,19 @@
   --shadow-color: #000000;
   --text-color: #FFFFFF;
   --animation-speed: 0.25s;
-  --border-radius: 24px;
-  --padding: 30px;
-  --gap-size: 16px;
-  --shadow-size: 32px;
 
   /*dynamic sizes*/
   --margin-size: 100px auto;
   --grid-width: 736px;
-  --wide-box-size: 676px;
-  --large-box-size: 300px;
-  --small-box-size: 112px;
+  --wide-box-size: 672px;
+  --large-box-size: 296px;
+  --small-box-size: 108px;
+  --border-radius: 24px;
+  --padding: 32px;
+  --gap-size: 16px;
+  --shadow-size: 16px;
+  --font-size: 16px;
+  --line-height: 24px;
 }
 
 @keyframes show {
@@ -30,8 +32,8 @@ body {
   font-family: Arial, sans-serif;
   color: var(--text-color);
   text-align: center;
-  line-height: 24px;
-  font-size: 16px;
+  line-height: var(--line-height);
+  font-size: var(--font-size);
   animation-name: show;
   animation-duration: var(--animation-speed);
 }
