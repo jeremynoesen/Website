@@ -12,18 +12,18 @@ window.onload = () => {
     margins = document.body.style.getPropertyValue("--margin-size");
 
     resizeEvent();
-    document.addEventListener("resize", keyEvent);
+    window.addEventListener("resize", resizeEvent);
 }
 
 function resizeEvent(event) {
     let width = window.innerWidth;
     if(width <= 1024 && width >= 736) {
-        width -= 112;
+        width -= 32;
         document.body.style.setProperty("--grid-width", width + "px");
         document.body.style.setProperty("--wide-box-size", (width - 60) + "px");
         document.body.style.setProperty("--large-box-size", ((width / 2) - 68) + "px");
         document.body.style.setProperty("--small-box-size", ((width / 4) / - 34) + "px");
-        document.body.style.setProperty("--margin-size", "50px auto");
+        document.body.style.setProperty("--margin-size", "0px auto");
         document.body.style.fontSize = (width / 45) + "px"
         document.body.style.lineHeight = (width / 30) + "px"
     } else if (width > 1024) {
@@ -36,5 +36,3 @@ function resizeEvent(event) {
         document.body.style.lineHeight = "24px";
     }
 }
-
-window.addEventListener('resize', resizeEvent);

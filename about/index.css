@@ -52,8 +52,3 @@
     grid-area: bio2;
     text-align: left;
 }
-
-.logo {
-    filter: brightness(0%) invert();
-    width: 85%;
-}
