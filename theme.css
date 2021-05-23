@@ -10,7 +10,7 @@
   --border-radius: 24px;
   --padding: 30px;
   --gap-size: 16px;
-  --shadow-size: 16px;
+  --shadow-size: 32px;
 
   /*dynamic sizes*/
   --margin-size: 100px auto;
