@@ -31,8 +31,11 @@
 
 .pdf {
     grid-area: pdf;
+    width: var(--grid-width);
+    height: 637%;
 }
 
 .logo {
     filter: brightness(0%) invert();
+    width: 85%;
 }

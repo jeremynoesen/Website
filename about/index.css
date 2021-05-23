@@ -34,6 +34,8 @@
 
 .portrait {
     grid-area: portrait;
+    background-image: url(../resources/Portrait.jpeg);
+    background-size: cover;
 }
 
 .intro {
@@ -53,8 +55,5 @@
 
 .logo {
     filter: brightness(0%) invert();
-}
-
-.image {
-    border-radius: var(--border-radius);
+    width: 85%;
 }

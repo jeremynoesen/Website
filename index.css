@@ -38,3 +38,7 @@
 .contact {
     grid-area: contact;
 }
+
+.logo {
+    width: 85%;
+}
