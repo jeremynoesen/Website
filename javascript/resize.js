@@ -20,8 +20,8 @@ window.onload = () => {
     gaps = document.body.style.getPropertyValue("--gap-size");
     shadows = document.body.style.getPropertyValue("--shadow-size");
     padding = document.body.style.getPropertyValue("--padding");
-    fontSize = document.body.style.getPropertyValue("--font-size");
-    lineSpacing = document.body.style.getPropertyValue("--line-height");
+    fontSize = document.body.style.fontSize;
+    lineSpacing = document.body.style.lineHeight;
 
     resizeEvent();
     window.addEventListener("resize", resizeEvent);
@@ -30,13 +30,13 @@ window.onload = () => {
 function resizeEvent() {
     let width = window.innerWidth;
     if(width <= 1080 && width >= 540) {
-        let size = width - 32;
-        let dynPadding = size * (32 / 736);
-        let dynGaps = size * (16 / 736);
-        let dynShadows = size * (16 / 736);
-        let dynRadius = size * (24 / 736);
-        let dynFontSize = size * (20 / 736);
-        let dynLineHeight = size * (26 / 736);
+        let size = width - 16;
+        let dynPadding = size * (32 / 736); //padding, grid width
+        let dynGaps = size * (16 / 736); //gap size, grid width
+        let dynShadows = size * (16 / 736); //shadow size, grid width
+        let dynRadius = size * (24 / 736); //border radius, grid width
+        let dynFontSize = size * (20 / 736); //font size + 4, grid width
+        let dynLineHeight = size * (26 / 736); //line height + 2, grid width
         let dynWideSize = size - (2 * dynPadding);
         let dynLargeSize = (size / 2) - (2 * dynPadding) - (dynGaps / 2);
         let dynSmallSize = (size / 4) - (2 * dynPadding) - (dynGaps / 1.333);
