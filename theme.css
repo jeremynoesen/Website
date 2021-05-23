@@ -18,6 +18,9 @@
   --padding: 32px;
   --gap-size: 16px;
   --shadow-size: 16px;
+
+  /*misc*/
+  --pdf-height: 0px;
 }
 
 @keyframes show {

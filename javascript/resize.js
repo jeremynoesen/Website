@@ -52,6 +52,7 @@ function resizeEvent() {
         document.body.style.setProperty("--shadow-size", dynShadows + "px");
         document.body.style.setProperty("--padding", dynPadding + "px");
         document.body.style.setProperty("--margin-size", "0px auto");
+        document.body.style.setProperty("--pdf-height", (1.15 * size) + "px");
     } else if (width > 1080) {
         document.body.style.setProperty("--grid-width", gridWidth);
         document.body.style.setProperty("--wide-box-size", wideSize);
@@ -64,5 +65,6 @@ function resizeEvent() {
         document.body.style.setProperty("--gap-size", gaps);
         document.body.style.setProperty("--shadow-size", shadows);
         document.body.style.setProperty("--padding", padding);
+        document.body.style.setProperty("--pdf-height", (1.15 * 736) + "px"); //grid width
     }
 }

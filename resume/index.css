@@ -31,6 +31,9 @@
 
 .pdf {
     grid-area: pdf;
+    background-image: url(../resources/Resume.jpg);
+    background-size: cover;
+    height: var(--pdf-height);
 }
 
 .logo {
