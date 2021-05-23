@@ -22,7 +22,7 @@ function resizeEvent(event) {
         document.body.style.setProperty("--grid-width", width + "px");
         document.body.style.setProperty("--wide-box-size", (width - 60) + "px");
         document.body.style.setProperty("--large-box-size", ((width / 2) - 68) + "px");
-        document.body.style.setProperty("--small-box-size", ((width / 4) / - 34) + "px");
+        document.body.style.setProperty("--small-box-size", ((width / 4) - 72) + "px");
         document.body.style.setProperty("--margin-size", "0px auto");
         document.body.style.fontSize = (width / 45) + "px"
         document.body.style.lineHeight = (width / 30) + "px"
