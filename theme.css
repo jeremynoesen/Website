@@ -6,14 +6,16 @@
   --button-hover-color: #0050ea;
   --shadow-color: #000000;
   --text-color: #FFFFFF;
-  --border-radius: 24px;
-  --gap-size: 16px;
-  --margin-size: 100px auto;
-  --grid-width: 740px;
   --animation-speed: 0.25s;
+  --border-radius: 24px;
   --padding: 30px;
+  --gap-size: 16px;
   --shadow-size: 16px;
-  --wide-box-size: 678px;
+
+  /*dynamic sizes*/
+  --margin-size: 100px auto;
+  --grid-width: 736px;
+  --wide-box-size: 676px;
   --large-box-size: 300px;
   --small-box-size: 112px;
 }
@@ -29,6 +31,7 @@ body {
   color: var(--text-color);
   text-align: center;
   line-height: 24px;
+  font-size: 16px;
   animation-name: show;
   animation-duration: var(--animation-speed);
 }
