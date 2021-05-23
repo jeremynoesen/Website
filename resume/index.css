@@ -5,7 +5,6 @@
     grid-template-areas:
           'back about resume resume'
           'projects contact resume resume'
-          'pdf pdf pdf pdf'
           'pdf pdf pdf pdf';
     grid-gap: var(--gap-size);
 }
@@ -32,4 +31,9 @@
 
 .pdf {
     grid-area: pdf;
+}
+
+.logo {
+    filter: brightness(0%) invert();
+    width: 85%;
 }

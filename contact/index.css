@@ -73,3 +73,8 @@
 .email:hover {
     background-color: #EA4335;
 }
+
+.logo {
+    filter: brightness(0%) invert();
+    width: 85%;
+}

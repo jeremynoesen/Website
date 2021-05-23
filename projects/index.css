@@ -151,6 +151,11 @@
     text-align: left;
 }
 
+.logo {
+    filter: brightness(0%) invert();
+    width: 85%;
+}
+
 .icons {
     width: 85%;
 }
