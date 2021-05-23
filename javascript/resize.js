@@ -17,20 +17,16 @@ window.onload = () => {
 
 function resizeEvent(event) {
     let width = window.innerWidth;
-    let height = window.innerHeight;
-    let size;
-    if (height < width) size = height;
-    else size = width;
-    if(size <= 1000 && size >= 540) {
-        size -= 32;
-        document.body.style.setProperty("--grid-width", size + "px");
-        document.body.style.setProperty("--wide-box-size", (size - 60) + "px");
-        document.body.style.setProperty("--large-box-size", ((size / 2) - 68) + "px");
-        document.body.style.setProperty("--small-box-size", ((size / 4) - 72) + "px");
+    if(width <= 1080 && width >= 540) {
+        width -= 32;
+        document.body.style.setProperty("--grid-width", width + "px");
+        document.body.style.setProperty("--wide-box-size", (width - 60) + "px");
+        document.body.style.setProperty("--large-box-size", ((width / 2) - 68) + "px");
+        document.body.style.setProperty("--small-box-size", ((width / 4) - 72) + "px");
         document.body.style.setProperty("--margin-size", "0px auto");
-        document.body.style.fontSize = (size / 40) + "px"
-        document.body.style.lineHeight = (size / 30) + "px"
-    } else if (size > 1000) {
+        document.body.style.fontSize = (width / 40) + "px"
+        document.body.style.lineHeight = (width / 30) + "px"
+    } else if (width > 1080) {
         document.body.style.setProperty("--grid-width", gridWidth);
         document.body.style.setProperty("--wide-box-size", wideSize);
         document.body.style.setProperty("--large-box-size", largeSize);
