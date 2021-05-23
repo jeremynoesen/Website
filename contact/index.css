@@ -49,17 +49,17 @@
 
 .github-svg {
     filter: invert() brightness(1000%);
-    width: 60px;
+    width: 25%;
 }
 
 .discord-svg {
     filter: brightness(1000%);
-    width: 60px;
+    width: 60%;
 }
 
 .email-svg {
     filter: invert() brightness(1000%);
-    width: 60px;
+    width: 60%;
 }
 
 .github:hover {
