@@ -21,7 +21,7 @@ function resizeEvent(event) {
     let size;
     if (height < width) size = height;
     else size = width;
-    if(size <= 900 && size >= 540) {
+    if(size <= 1000 && size >= 540) {
         size -= 32;
         document.body.style.setProperty("--grid-width", size + "px");
         document.body.style.setProperty("--wide-box-size", (size - 60) + "px");
@@ -30,7 +30,7 @@ function resizeEvent(event) {
         document.body.style.setProperty("--margin-size", "0px auto");
         document.body.style.fontSize = (size / 40) + "px"
         document.body.style.lineHeight = (size / 30) + "px"
-    } else if (size > 900) {
+    } else if (size > 1000) {
         document.body.style.setProperty("--grid-width", gridWidth);
         document.body.style.setProperty("--wide-box-size", wideSize);
         document.body.style.setProperty("--large-box-size", largeSize);
