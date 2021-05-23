@@ -4,11 +4,7 @@ let player;
 let status = 0;
 let buffer = ["", "", ""];
 
-let style1 = `* {
-                cursor: url(https://ani.cursors-4u.net/games/gam-16/gam1570.cur), url(https://ani.cursors-4u.net/games/gam-16/gam1570.cur), auto !important;
-              }
-
-              :root {
+let style1 = `:root {
                 --background-color: #00000000;
                 background-image: linear-gradient(to right, #221800, #220000, #001822);
               }
@@ -27,24 +23,6 @@ let style1 = `* {
               }`;
 
 let style2 = `:root {
-                --background-color: #4DFF00;
-                --box-color: #FFF200;
-                --box-hover-color: #7E05E8;
-                --button-hover-color: #0050ea;
-                --shadow-color: #ff00f3;
-                --text-color: #B54618;
-              }
-              
-              .notfound {
-                background-image: url(https://i.kym-cdn.com/photos/images/newsfeed/001/018/903/29e.jpg);
-                background-size: 250px;
-                background-repeat: no-repeat;
-                background-position-x: 85%;
-                background-position-y: 50%;
-                justify-content: unset;
-              }`;
-
-let style3 = `:root {
                 --background-color: #00000000;
                 background-image: linear-gradient(#080022, #221800);
                 background-attachment: fixed;
@@ -86,25 +64,13 @@ function keyEvent(event) {
             buffer = ["", "", ""];
             status = 0;
         }
-    } else if (buffer.join("") === "gdp") {
+    } else if (buffer.join("") === "p3d") {
         if (status !== 2) {
             player.pause();
             styleSheet.innerText = style2;
             document.head.appendChild(styleSheet);
             buffer = ["", "", ""];
             status = 2;
-        } else {
-            document.head.removeChild(styleSheet);
-            buffer = ["", "", ""];
-            status = 0;
-        }
-    } else if (buffer.join("") === "p3d") {
-        if (status !== 3) {
-            player.pause();
-            styleSheet.innerText = style3;
-            document.head.appendChild(styleSheet);
-            buffer = ["", "", ""];
-            status = 3;
         } else {
             document.head.removeChild(styleSheet);
             buffer = ["", "", ""];
