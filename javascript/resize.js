@@ -36,7 +36,7 @@ function resizeInit() {
 function resizeEvent() {
     let width = window.innerWidth;
     if(width <= 1080 && width >= 540) {
-        let size = width - 16;
+        let size = width - 20;
         let dynPadding = size * (32 / 736); //padding, grid width
         let dynGaps = size * (16 / 736); //gap size, grid width
         let dynShadows = size * (16 / 736); //shadow size, grid width
