@@ -23,8 +23,8 @@ function resizeInit() {
     gaps = document.body.style.getPropertyValue("--gap-size");
     shadows = document.body.style.getPropertyValue("--shadow-size");
     padding = document.body.style.getPropertyValue("--padding");
-    fontSize = document.body.style.fontSize;
-    lineSpacing = document.body.style.lineHeight;
+    fontSize = document.body.style.getPropertyValue("--font-size");
+    lineSpacing = document.body.style.getPropertyValue("--line-height");
 
     resizeEvent();
     window.addEventListener("resize", resizeEvent);
@@ -51,13 +51,14 @@ function resizeEvent() {
         document.body.style.setProperty("--wide-box-size", dynWideSize + "px");
         document.body.style.setProperty("--large-box-size", dynLargeSize + "px");
         document.body.style.setProperty("--small-box-size", dynSmallSize + "px");
-        document.body.style.fontSize = dynFontSize + "px"
-        document.body.style.lineHeight = dynLineHeight + "px"
+        document.body.style.setProperty("--font-size", dynFontSize + "px");
+        document.body.style.setProperty("--line-height", dynLineHeight + "px");
         document.body.style.setProperty("--border-radius", dynRadius + "px");
         document.body.style.setProperty("--gap-size", dynGaps + "px");
         document.body.style.setProperty("--shadow-size", dynShadows + "px");
         document.body.style.setProperty("--padding", dynPadding + "px");
         document.body.style.setProperty("--margin-size", "0px auto");
+
         document.body.style.setProperty("--pdf-height", (1.15 * size) + "px");
     } else if (width > 1080) {
         document.body.style.setProperty("--grid-width", gridWidth);
@@ -65,12 +66,13 @@ function resizeEvent() {
         document.body.style.setProperty("--large-box-size", largeSize);
         document.body.style.setProperty("--small-box-size", smallSize);
         document.body.style.setProperty("--margin-size", margins);
-        document.body.style.fontSize = fontSize;
-        document.body.style.lineHeight = lineSpacing;
+        document.body.style.setProperty("--font-size", fontSize);
+        document.body.style.setProperty("--line-height", lineSpacing);
         document.body.style.setProperty("--border-radius", radius);
         document.body.style.setProperty("--gap-size", gaps);
         document.body.style.setProperty("--shadow-size", shadows);
         document.body.style.setProperty("--padding", padding);
+        
         document.body.style.setProperty("--pdf-height", (1.15 * 736) + "px"); //grid width
     }
 }
