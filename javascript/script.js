@@ -4,8 +4,7 @@ let player;
 let status = 0;
 let buffer = ["", "", ""];
 
-let style1 = `:root {
-                --background-color: #00000000;
+let style1 = `body {
                 background-image: linear-gradient(to right, #221800, #220000, #001822);
               }
               
@@ -22,10 +21,8 @@ let style1 = `:root {
                 filter: brightness(1.1);
               }`;
 
-let style2 = `:root {
-                --background-color: #00000000;
+let style2 = `body {
                 background-image: linear-gradient(#080022, #221800);
-                background-attachment: fixed;
               }
               
               .notfound {

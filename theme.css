@@ -1,8 +1,9 @@
 :root {
   /*theme colors, only need to change here*/
   --background-color: #070c1d;
-  --box-color: rgba(255, 255, 255, 0.06);
-  --box-hover-color: rgba(255, 255, 255, 0.08);
+  --background-color-gradient: #000000;
+  --box-color: rgba(100, 100, 255, 0.08);
+  --box-hover-color: rgba(100, 100, 255, 0.1);
   --button-hover-color: #0050ea;
   --shadow-color: #000000;
   --text-color: #FFFFFF;
@@ -31,7 +32,8 @@
 }
 
 body {
-  background-color: var(--background-color);
+  background-image: linear-gradient(var(--background-color), var(--background-color-gradient));
+  background-attachment: fixed;
   font-family: Arial, sans-serif;
   color: var(--text-color);
   text-align: center;
