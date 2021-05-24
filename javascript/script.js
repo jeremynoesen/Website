@@ -4,7 +4,7 @@ let player;
 let status = 0;
 let buffer = ["", "", ""];
 
-let style1 = `body {
+let style1 = `:root {
                 background-image: linear-gradient(to right, #221800, #220000, #001822);
               }
               
@@ -21,7 +21,7 @@ let style1 = `body {
                 filter: brightness(1.1);
               }`;
 
-let style2 = `body {
+let style2 = `:root {
                 background-image: linear-gradient(#080022, #221800);
               }
               
