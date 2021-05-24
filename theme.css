@@ -1,7 +1,6 @@
 :root {
   /*theme colors, only need to change here*/
   --background-color: #070c1d;
-  --background-color-gradient: #000011;
   --box-color: rgba(200, 200, 255, 0.08);
   --box-hover-color: rgba(200, 200, 255, 0.1);
   --button-hover-color: #0050ea;
@@ -24,9 +23,6 @@
 
   /*misc*/
   --pdf-height: 0px;
-
-  background-image: linear-gradient(var(--background-color), var(--background-color-gradient));
-  background-attachment: fixed;
 }
 
 @keyframes show {
@@ -35,6 +31,7 @@
 }
 
 body {
+  background-color: var(--background-color);
   font-family: Arial, sans-serif;
   color: var(--text-color);
   text-align: center;

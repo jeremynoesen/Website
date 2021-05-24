@@ -5,7 +5,9 @@ let status = 0;
 let buffer = ["", "", ""];
 
 let style1 = `:root {
+                --background-color: #00000000;
                 background-image: linear-gradient(to right, #221800, #220000, #001822);
+                background-attachment: fixed;
               }
               
               .notfound {
@@ -22,7 +24,9 @@ let style1 = `:root {
               }`;
 
 let style2 = `:root {
+                --background-color: #00000000;
                 background-image: linear-gradient(#080022, #221800);
+                background-attachment: fixed;
               }
               
               .notfound {
