@@ -9,7 +9,8 @@
           'skills skills skills skills'
           'skills skills skills skills'
           'languages languages softwares softwares'
-          'languages languages softwares softwares';
+          'languages languages softwares softwares'
+          'resume resume resume resume';
 }
 
 .back {
@@ -76,4 +77,12 @@
     grid-area: softwares;
     text-align: left;
     justify-content: unset;
+}
+
+.resume {
+    grid-area: resume;
+}
+
+.resume:hover {
+    background-color: var(--button-hover-color);
 }
