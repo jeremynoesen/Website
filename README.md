@@ -1,3 +1,5 @@
+<img src="Logo.png" alt="Logo" title="Logo" align="right" width="200" height="200" />
+
 # [jeremynoesen.github.io](https://jeremynoesen.github.io)
 
 ## About

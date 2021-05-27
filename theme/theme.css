@@ -1,3 +1,7 @@
+/*
+This is a custom theme by Jeremy Noesen
+*/
+
 :root {
   /*theme colors, only need to change here*/
   --background-color: #070c1d;
@@ -8,7 +12,7 @@
   --text-color: #FFFFFF;
   --animation-speed: 0.25s;
 
-  /*dynamic sizes, change here and in resize.js*/
+  /*dynamic sizes, change here and in theme.js*/
   --margin-size: 100px auto;
   --grid-width: 736px;
   --wide-box-size: 672px;

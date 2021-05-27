@@ -1,3 +1,10 @@
+/**
+ * This script can be paired with theme.css to make it scale better for mobile browsers in a way that doesnt cause the
+ * theme to break its shape.
+ *
+ * @author Jeremy Noesen
+ */
+
 let gridWidth;
 let wideSize;
 let largeSize;
@@ -35,7 +42,7 @@ function resizeInit() {
  */
 function resizeEvent() {
     let width = window.innerWidth;
-    if(width <= 1080 && width >= 540) {
+    if (width <= 1080 && width >= 540) {
         let size = width - 20;
         let dynPadding = size * (32 / 736); //padding, grid width
         let dynGaps = size * (16 / 736); //gap size, grid width
@@ -72,7 +79,7 @@ function resizeEvent() {
         document.body.style.setProperty("--gap-size", gaps);
         document.body.style.setProperty("--shadow-size", shadows);
         document.body.style.setProperty("--padding", padding);
-        
+
         document.body.style.setProperty("--pdf-height", (1.2 * 736) + "px"); //grid width
     }
 }

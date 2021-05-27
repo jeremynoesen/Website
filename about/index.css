@@ -35,7 +35,7 @@
 
 .portrait {
     grid-area: portrait;
-    background-image: url(../resources/Portrait.jpeg);
+    background-image: url(resources/Portrait.jpeg);
     background-size: cover;
 }
 
@@ -61,7 +61,7 @@
 
 .pdf {
     grid-area: pdf;
-    background-image: url(../resources/Resume.jpg);
+    background-image: url(resources/Resume.jpg);
     background-size: cover;
     height: var(--pdf-height);
 }
