@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8"/>
     <title>Page Not Found</title>
+    <link rel="stylesheet" type="text/css" href="../theme/theme.css"/>
+    <link rel="stylesheet" type="text/css" href="404.css"/>
     <link rel="shortcut icon" type="image/png" href="../Logo.png"/>
     <meta property="author" content="Jeremy Noesen"/>
     <meta property="description" content="Page Not Found"/>
@@ -14,8 +16,20 @@
     <meta property="og:image:height" content="512"/>
     <meta property="og:title" content="Page Not Found"/>
     <meta property="og:type" content="website"/>
-    <meta http-equiv="refresh" content="0; url=404/">
+    <meta property="og:url" content="https://jeremynoesen.github.io/404"/>
+    <script src="../theme/theme.js"></script>
+    <script src="404.js"></script>
 </head>
 <body>
+<div class="grid">
+    <a class="notfound large-wide-grid-item" href="../home/">
+        <div>
+            <audio id="player"></audio>
+            <h1>Page Not Found!</h1>
+            <p>The page you are looking for does not exist!</p>
+            <p>Click on this box to go to the home page.</p>
+        </div>
+    </a>
+</div>
 </body>
 </html>
