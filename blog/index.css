@@ -1,6 +1,7 @@
 .grid {
     display: grid;
     margin: var(--margin-size);
+    margin-bottom: var(--gap-size);
     width: var(--grid-width);
     grid-template-areas:
           'back about blog blog'
@@ -31,4 +32,22 @@
 .logo {
     filter: brightness(0%) invert();
     width: 85%;
+}
+
+.post {
+    text-align: left;
+    justify-content: unset;
+    align-items: unset;
+    height: max-content;
+}
+
+hr {
+    border-color: var(--box-hover-color);
+}
+
+.posts {
+    display: grid;
+    grid-gap: var(--gap-size);
+    width: var(--grid-width);
+    margin: 0 auto;
 }
