@@ -1,12 +1,8 @@
 .grid {
-    display: grid;
-    margin: var(--margin-size);
     margin-bottom: var(--gap-size);
-    width: var(--grid-width);
     grid-template-areas:
           'back about blog blog'
           'projects socials blog blog';
-    grid-gap: var(--gap-size);
 }
 
 .back {

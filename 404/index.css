@@ -1,11 +1,7 @@
 .grid {
-    display: grid;
-    margin: var(--margin-size);
-    width: var(--grid-width);
     grid-template-areas:
           'notfound notfound notfound notfound'
           'notfound notfound notfound notfound';
-    grid-gap: var(--gap-size);
 }
 
 .notfound {

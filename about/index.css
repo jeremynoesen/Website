@@ -1,7 +1,4 @@
 .grid {
-    display: grid;
-    margin: var(--margin-size);
-    width: var(--grid-width);
     grid-template-areas:
           'back blog about about'
           'projects socials about about'
@@ -10,7 +7,6 @@
           'bio1 bio1 bio2 bio2'
           'bio1 bio1 bio2 bio2'
           'pdf pdf pdf pdf';
-    grid-gap: var(--gap-size);
 }
 
 .back {

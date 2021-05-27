@@ -1,13 +1,9 @@
 .grid {
-    display: grid;
-    margin: var(--margin-size);
-    width: var(--grid-width);
     grid-template-areas:
           'back about socials socials'
           'blog projects socials socials'
           'info info github github'
           'info info discord email';
-    grid-gap: var(--gap-size);
 }
 
 .back {

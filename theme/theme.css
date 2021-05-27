@@ -3,7 +3,7 @@ This is a custom theme by Jeremy Noesen
 */
 
 :root {
-  /*theme colors, only need to change here*/
+  /* theme colors, only need to change here */
   --background-color: #070c1d;
   --box-color: rgba(200, 200, 255, 0.08);
   --box-hover-color: rgba(200, 200, 255, 0.1);
@@ -12,7 +12,7 @@ This is a custom theme by Jeremy Noesen
   --text-color: #FFFFFF;
   --animation-speed: 0.25s;
 
-  /*dynamic sizes, change here and in theme.js*/
+  /* dynamic sizes, change here and in theme.js */
   --margin-size: 100px auto;
   --grid-width: 736px;
   --wide-box-size: 672px;
@@ -44,6 +44,17 @@ body {
   animation-name: show;
   animation-duration: var(--animation-speed);
 }
+
+/* outer div, grid container, must specify 'grid-template-areas' per page with grid areas */
+
+.grid {
+  display: grid;
+  margin: var(--margin-size);
+  width: var(--grid-width);
+  grid-gap: var(--gap-size);
+}
+
+/* inner divs, grid elements, must specify 'grid-area' to fill it grid above */
 
 .large-grid-item {
   transition: var(--animation-speed);

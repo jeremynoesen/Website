@@ -1,13 +1,9 @@
 .grid {
-    display: grid;
-    margin: var(--margin-size);
-    width: var(--grid-width);
     grid-template-areas:
           'logobox logobox namebox namebox'
           'logobox logobox namebox namebox'
           'welcomebox welcomebox about blog'
           'welcomebox welcomebox projects socials';
-    grid-gap: var(--gap-size);
 }
 
 .logobox {

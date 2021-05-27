@@ -1,7 +1,4 @@
 .grid {
-    display: grid;
-    margin: var(--margin-size);
-    width: var(--grid-width);
     grid-template-areas:
           'back about projects projects'
           'blog socials projects projects'
@@ -29,7 +26,6 @@
           'delbot delbot delbotinfo delbotinfo'
           'cannonpong cannonpong cannonponginfo cannonponginfo'
           'cannonpong cannonpong cannonponginfo cannonponginfo';
-    grid-gap: var(--gap-size);
 }
 
 .back {

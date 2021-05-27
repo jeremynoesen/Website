@@ -1,4 +1,4 @@
-<img src="Logo.png" alt="Logo" title="Logo" align="right" width="200" height="200" />
+<img src="home/resources/Logo.png" alt="Logo" title="Logo" align="right" width="200" height="200" />
 
 # [jeremynoesen.github.io](https://jeremynoesen.github.io)
 
