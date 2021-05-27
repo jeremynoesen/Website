@@ -3,7 +3,6 @@
           'back about projects projects'
           'blog socials projects projects'
           'fav fav fav fav'
-          'fav fav fav fav'
           'p3d p3d p3dinfo p3dinfo'
           'p3d p3d p3dinfo p3dinfo'
           'bonebot bonebot bonebotinfo bonebotinfo'
@@ -11,14 +10,12 @@
           'site site siteinfo siteinfo'
           'site site siteinfo siteinfo'
           'mc mc mc mc'
-          'mc mc mc mc'
           'couriernew couriernew couriernewinfo couriernewinfo'
           'couriernew couriernew couriernewinfo couriernewinfo'
           'volleyball volleyball volleyballinfo volleyballinfo'
           'volleyball volleyball volleyballinfo volleyballinfo'
           'hardcorelists hardcorelists hardcorelistsinfo hardcorelistsinfo'
           'hardcorelists hardcorelists hardcorelistsinfo hardcorelistsinfo'
-          'school school school school'
           'school school school school'
           'chirrup chirrup chirrupinfo chirrupinfo'
           'chirrup chirrup chirrupinfo chirrupinfo'
@@ -50,17 +47,14 @@
 
 .fav {
     grid-area: fav;
-    text-align: left;
 }
 
 .mc {
     grid-area: mc;
-    text-align: left;
 }
 
 .school {
     grid-area: school;
-    text-align: left;
 }
 
 .p3d {
@@ -70,6 +64,7 @@
 .p3dinfo {
     grid-area: p3dinfo;
     text-align: left;
+    justify-content: unset;
 }
 
 .bonebot {
@@ -79,6 +74,7 @@
 .bonebotinfo {
     grid-area: bonebotinfo;
     text-align: left;
+    justify-content: unset;
 }
 
 .site {
@@ -88,6 +84,7 @@
 .siteinfo {
     grid-area: siteinfo;
     text-align: left;
+    justify-content: unset;
 }
 
 .couriernew {
@@ -97,6 +94,7 @@
 .couriernewinfo {
     grid-area: couriernewinfo;
     text-align: left;
+    justify-content: unset;
 }
 
 .volleyball {
@@ -106,6 +104,7 @@
 .volleyballinfo {
     grid-area: volleyballinfo;
     text-align: left;
+    justify-content: unset;
 }
 
 .hardcorelists {
@@ -115,6 +114,7 @@
 .hardcorelistsinfo {
     grid-area: hardcorelistsinfo;
     text-align: left;
+    justify-content: unset;
 }
 
 .chirrup {
@@ -125,6 +125,7 @@
 .chirrupinfo {
     grid-area: chirrupinfo;
     text-align: left;
+    justify-content: unset;
 }
 
 .delbot {
@@ -135,6 +136,7 @@
 .delbotinfo {
     grid-area: delbotinfo;
     text-align: left;
+    justify-content: unset;
 }
 
 .cannonpong {
@@ -145,6 +147,7 @@
 .cannonponginfo {
     grid-area: cannonponginfo;
     text-align: left;
+    justify-content: unset;
 }
 
 .logo {
