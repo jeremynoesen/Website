@@ -6,7 +6,7 @@
           'logobox logobox namebox namebox'
           'logobox logobox namebox namebox'
           'welcomebox welcomebox about resume'
-          'welcomebox welcomebox projects contact';
+          'welcomebox welcomebox projects socials';
     grid-gap: var(--gap-size);
 }
 
@@ -35,8 +35,8 @@
     grid-area: projects;
 }
 
-.contact {
-    grid-area: contact;
+.socials {
+    grid-area: socials;
 }
 
 .logo {

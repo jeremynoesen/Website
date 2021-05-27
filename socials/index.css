@@ -3,8 +3,8 @@
     margin: var(--margin-size);
     width: var(--grid-width);
     grid-template-areas:
-          'back about contact contact'
-          'resume projects contact contact'
+          'back about socials socials'
+          'resume projects socials socials'
           'info info github github'
           'info info discord email';
     grid-gap: var(--gap-size);
@@ -26,8 +26,8 @@
     grid-area: about;
 }
 
-.contact {
-    grid-area: contact;
+.socials {
+    grid-area: socials;
 }
 
 .github {

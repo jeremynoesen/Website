@@ -4,7 +4,7 @@
     width: var(--grid-width);
     grid-template-areas:
           'back about resume resume'
-          'projects contact resume resume';
+          'projects socials resume resume';
     grid-gap: var(--gap-size);
 }
 
@@ -20,8 +20,8 @@
     grid-area: projects;
 }
 
-.contact {
-    grid-area: contact;
+.socials {
+    grid-area: socials;
 }
 
 .resume {
