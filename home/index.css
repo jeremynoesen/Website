@@ -1,9 +1,8 @@
 .grid {
     grid-template-areas:
-          'logobox logobox namebox namebox'
-          'logobox logobox namebox namebox'
-          'welcomebox welcomebox about blog'
-          'welcomebox welcomebox projects socials';
+          'back about projects blog'
+          'welcomebox welcomebox github github'
+          'welcomebox welcomebox discord email';
 }
 
 .logobox {
@@ -17,6 +16,7 @@
 .welcomebox {
     grid-area: welcomebox;
     text-align: left;
+    justify-content: unset;
 }
 
 .about {
@@ -31,10 +31,50 @@
     grid-area: projects;
 }
 
-.socials {
-    grid-area: socials;
+.back {
+    grid-area: back;
+    background-color: var(--box-hover-color);
 }
 
 .logo {
-    width: 85%;
+    width: 100%;
+}
+
+.github {
+    grid-area: github;
+}
+
+.discord {
+    grid-area: discord;
+}
+
+.email {
+    grid-area: email;
+}
+
+.github-svg {
+    filter: invert() brightness(1000%);
+    width: 25%;
+}
+
+.discord-svg {
+    filter: brightness(1000%);
+    width: 60%;
+}
+
+.email-svg {
+    filter: invert() brightness(1000%);
+    width: 60%;
+}
+
+.github:hover {
+    background-color: #000000;
+}
+
+.discord:hover {
+    background-color: #5865f2;
+}
+
+.email:hover {
+    background-color: #EA4335;
 }

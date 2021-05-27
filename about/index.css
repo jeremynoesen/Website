@@ -1,7 +1,6 @@
 .grid {
     grid-template-areas:
-          'back blog about about'
-          'projects socials about about'
+          'back about projects blog'
           'story story story story'
           'portrait portrait intro intro'
           'portrait portrait intro intro'
@@ -25,12 +24,9 @@
     grid-area: projects;
 }
 
-.socials {
-    grid-area: socials;
-}
-
 .about {
     grid-area: about;
+    background-color: var(--box-hover-color);
 }
 
 .portrait {

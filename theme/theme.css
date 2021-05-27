@@ -6,8 +6,8 @@ This is a custom theme by Jeremy Noesen
   /* theme colors, only need to change here */
   --background-color: #070c1d;
   --box-color: rgba(200, 200, 255, 0.08);
-  --box-hover-color: rgba(200, 200, 255, 0.1);
-  --button-hover-color: #0050ea;
+  --box-hover-color: rgba(200, 200, 255, 0.12);
+  --button-hover-color: #0046ff;
   --shadow-color: #000000;
   --text-color: #FFFFFF;
   --animation-speed: 0.25s;
@@ -27,7 +27,7 @@ This is a custom theme by Jeremy Noesen
 }
 
 @keyframes show {
-  0% {opacity: 0; filter: blur(10px)}
+  0% {opacity: 0.5; filter: blur(4px)}
   100% {opacity: 1}
 }
 

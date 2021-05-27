@@ -1,8 +1,7 @@
 .grid {
     margin-bottom: var(--gap-size);
     grid-template-areas:
-          'back about blog blog'
-          'projects socials blog blog';
+          'back about projects blog'
 }
 
 .back {
@@ -17,12 +16,9 @@
     grid-area: projects;
 }
 
-.socials {
-    grid-area: socials;
-}
-
 .blog {
     grid-area: blog;
+    background-color: var(--box-hover-color);
 }
 
 .logo {

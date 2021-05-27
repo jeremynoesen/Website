@@ -1,7 +1,6 @@
 .grid {
     grid-template-areas:
-          'back about projects projects'
-          'blog socials projects projects'
+          'back about projects blog'
           'fav fav fav fav'
           'p3d p3d p3dinfo p3dinfo'
           'p3d p3d p3dinfo p3dinfo'
@@ -37,12 +36,9 @@
     grid-area: about;
 }
 
-.socials {
-    grid-area: socials;
-}
-
 .projects {
     grid-area: projects;
+    background-color: var(--box-hover-color);
 }
 
 .fav {
