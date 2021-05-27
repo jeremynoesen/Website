@@ -4,7 +4,7 @@
     width: var(--grid-width);
     grid-template-areas:
           'back about socials socials'
-          'resume projects socials socials'
+          'blog projects socials socials'
           'info info github github'
           'info info discord email';
     grid-gap: var(--gap-size);
@@ -14,8 +14,8 @@
     grid-area: back;
 }
 
-.resume {
-    grid-area: resume;
+.blog {
+    grid-area: blog;
 }
 
 .projects {

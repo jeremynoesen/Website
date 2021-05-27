@@ -3,7 +3,7 @@
     margin: var(--margin-size);
     width: var(--grid-width);
     grid-template-areas:
-          'back resume about about'
+          'back blog about about'
           'projects socials about about'
           'portrait portrait intro intro'
           'portrait portrait intro intro'
@@ -17,8 +17,8 @@
     grid-area: back;
 }
 
-.resume {
-    grid-area: resume;
+.blog {
+    grid-area: blog;
 }
 
 .projects {

@@ -5,7 +5,7 @@
     grid-template-areas:
           'logobox logobox namebox namebox'
           'logobox logobox namebox namebox'
-          'welcomebox welcomebox about resume'
+          'welcomebox welcomebox about blog'
           'welcomebox welcomebox projects socials';
     grid-gap: var(--gap-size);
 }
@@ -27,8 +27,8 @@
     grid-area: about;
 }
 
-.resume {
-    grid-area: resume;
+.blog {
+    grid-area: blog;
 }
 
 .projects {

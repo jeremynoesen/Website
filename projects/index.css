@@ -4,7 +4,7 @@
     width: var(--grid-width);
     grid-template-areas:
           'back about projects projects'
-          'resume socials projects projects'
+          'blog socials projects projects'
           'fav fav fav fav'
           'fav fav fav fav'
           'p3d p3d p3dinfo p3dinfo'
@@ -36,8 +36,8 @@
     grid-area: back;
 }
 
-.resume {
-    grid-area: resume;
+.blog {
+    grid-area: blog;
 }
 
 .about {
