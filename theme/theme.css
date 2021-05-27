@@ -128,3 +128,22 @@ body {
 .small-wide-grid-item:hover {
   background-color: var(--button-hover-color);
 }
+
+.small-double-wide-grid-item {
+  transition: var(--animation-speed);
+  padding: var(--padding);
+  background-color: var(--box-color);
+  box-shadow: 0 0 var(--shadow-size) var(--shadow-color);
+  color: inherit;
+  text-decoration: none;
+  width: var(--wide-box-size);
+  height: var(--small-box-size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--border-radius);
+}
+
+.small-double-wide-grid-item:hover {
+  background-color: var(--box-hover-color);
+}

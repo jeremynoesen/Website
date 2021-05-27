@@ -2,11 +2,15 @@
     grid-template-areas:
           'back blog about about'
           'projects socials about about'
+          'story story story story'
           'portrait portrait intro intro'
           'portrait portrait intro intro'
           'bio1 bio1 bio2 bio2'
           'bio1 bio1 bio2 bio2'
-          'pdf pdf pdf pdf';
+          'skills skills skills skills'
+          'skills skills skills skills'
+          'languages languages softwares softwares'
+          'languages languages softwares softwares';
 }
 
 .back {
@@ -38,16 +42,19 @@
 .intro {
     grid-area: intro;
     text-align: left;
+    justify-content: unset;
 }
 
 .bio1 {
     grid-area: bio1;
     text-align: left;
+    justify-content: unset;
 }
 
 .bio2 {
     grid-area: bio2;
     text-align: left;
+    justify-content: unset;
 }
 
 .logo {
@@ -55,9 +62,22 @@
     width: 85%;
 }
 
-.pdf {
-    grid-area: pdf;
-    background-image: url(resources/Resume.jpg);
-    background-size: cover;
-    height: calc(var(--grid-width) * 1.2);
+.story {
+    grid-area: story;
+}
+
+.skills {
+    grid-area: skills;
+}
+
+.languages {
+    grid-area: languages;
+    text-align: left;
+    justify-content: unset;
+}
+
+.softwares {
+    grid-area: softwares;
+    text-align: left;
+    justify-content: unset;
 }
