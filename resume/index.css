@@ -4,8 +4,7 @@
     width: var(--grid-width);
     grid-template-areas:
           'back about resume resume'
-          'projects contact resume resume'
-          'pdf pdf pdf pdf';
+          'projects contact resume resume';
     grid-gap: var(--gap-size);
 }
 
@@ -27,13 +26,6 @@
 
 .resume {
     grid-area: resume;
-}
-
-.pdf {
-    grid-area: pdf;
-    background-image: url(../resources/Resume.jpg);
-    background-size: cover;
-    height: var(--pdf-height);
 }
 
 .logo {
