@@ -18,10 +18,6 @@ let style1 = `:root {
                 justify-content: unset;
                 align-items: unset;
                 text-align: left;
-              }
-              
-              .notfound:hover {
-                filter: brightness(1.1);
               }`;
 
 let style2 = `:root {
@@ -39,10 +35,6 @@ let style2 = `:root {
                 align-items: unset;
                 text-align: left;
                 image-rendering: pixelated;
-              }
-              
-              .notfound:hover {
-                filter: brightness(1.1);
               }`;
 
 let styleSheet = document.createElement("style");
