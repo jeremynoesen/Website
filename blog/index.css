@@ -43,3 +43,7 @@ hr {
     width: var(--grid-width);
     margin: 0 auto;
 }
+
+.img {
+    border-radius: var(--border-radius);
+}
