@@ -41,7 +41,8 @@ hr {
     display: grid;
     grid-gap: var(--gap-size);
     width: var(--grid-width);
-    margin: 0 auto;
+    margin: var(--margin-size);
+    margin-top: 0;
 }
 
 .img {
