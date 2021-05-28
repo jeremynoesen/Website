@@ -1,9 +1,31 @@
 .grid {
     grid-template-areas:
+          'back about projects blog'
           'notfound notfound notfound notfound'
           'notfound notfound notfound notfound';
 }
 
 .notfound {
     grid-area: notfound;
+}
+
+.back {
+    grid-area: back;
+}
+
+.blog {
+    grid-area: blog;
+}
+
+.projects {
+    grid-area: projects;
+}
+
+.about {
+    grid-area: about;
+}
+
+.logo {
+    filter: brightness(0%) invert();
+    width: 85%;
 }

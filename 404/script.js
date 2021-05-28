@@ -8,6 +8,7 @@ let style1 = `:root {
                 --background-color: #00000000;
                 background-image: linear-gradient(to right, #221800, #220000, #001822);
                 background-attachment: fixed;
+                --button-hover-color: #AA0000;;
               }
               
               .notfound {
@@ -27,6 +28,7 @@ let style2 = `:root {
                 --background-color: #00000000;
                 background-image: linear-gradient(#080022, #221800);
                 background-attachment: fixed;
+                --button-hover-color: #201188;
               }
               
               .notfound {
