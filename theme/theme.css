@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 /*
 This is a custom theme by Jeremy Noesen
 */
@@ -33,7 +35,7 @@ This is a custom theme by Jeremy Noesen
 
 body {
   background-color: var(--background-color);
-  font-family: Arial, sans-serif;
+  font-family: "Nunito", sans-serif;
   color: var(--text-color);
   text-align: center;
   line-height: var(--line-height);
