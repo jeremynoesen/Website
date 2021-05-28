@@ -66,6 +66,7 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: var(--border-radius);
+  overflow: hidden;
 }
 
 .large-grid-item:hover {
@@ -85,6 +86,7 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: var(--border-radius);
+  overflow: hidden;
 }
 
 .small-grid-item:hover {
@@ -104,6 +106,7 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: var(--border-radius);
+  overflow: hidden;
 }
 
 .large-wide-grid-item:hover {
@@ -123,6 +126,7 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: var(--border-radius);
+  overflow: hidden;
 }
 
 .small-wide-grid-item:hover {
@@ -142,6 +146,7 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: var(--border-radius);
+  overflow: hidden;
 }
 
 .small-double-wide-grid-item:hover {
