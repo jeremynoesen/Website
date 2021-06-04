@@ -54,30 +54,11 @@
     width: 85%;
 }
 
-.story {
-    grid-area: story;
-}
-
-.skills {
-    grid-area: skills;
-}
-
-.languages {
-    grid-area: languages;
-    text-align: left;
-    justify-content: unset;
-}
-
-.softwares {
-    grid-area: softwares;
-    text-align: left;
-    justify-content: unset;
-}
-
 .resume {
     grid-area: resume;
 }
 
 .resume:hover {
     background-color: var(--button-hover-color);
+    transform: scale(var(--button-hover-zoom));
 }
