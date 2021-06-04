@@ -51,6 +51,7 @@ body {
   margin: var(--margin-size);
   width: var(--grid-width);
   grid-gap: var(--gap-size);
+  place-content: center;
 }
 
 /* inner divs, grid elements, must specify 'grid-area' to fill it grid above */
