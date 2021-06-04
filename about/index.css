@@ -22,7 +22,7 @@
 
 .about {
     grid-area: about;
-    background-color: var(--box-hover-color);
+    background-color: #C8C8FF2E;
 }
 
 .portrait {
@@ -56,9 +56,4 @@
 
 .resume {
     grid-area: resume;
-}
-
-.resume:hover {
-    background-color: var(--button-hover-color);
-    transform: scale(var(--button-hover-zoom));
 }

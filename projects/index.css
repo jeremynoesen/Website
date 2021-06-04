@@ -38,7 +38,7 @@
 
 .projects {
     grid-area: projects;
-    background-color: var(--box-hover-color);
+    background-color: #C8C8FF2E;
 }
 
 .fav {
@@ -115,7 +115,7 @@
 
 .chirrup {
     grid-area: chirrup;
-    color: var(--box-color)
+    color: #C8C8FF2E;
 }
 
 .chirrupinfo {
@@ -126,7 +126,7 @@
 
 .delbot {
     grid-area: delbot;
-    color: var(--box-color)
+    color: #C8C8FF2E;
 }
 
 .delbotinfo {

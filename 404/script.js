@@ -4,11 +4,18 @@ let player;
 let status = 0;
 let buffer = ["", "", ""];
 
-let style1 = `:root {
-                --background-color: #00000000;
+let style1 = `body {
+                background-color: #00000000;
+              }
+
+              :root {
+                background-color: #00000000;
                 background-image: linear-gradient(to right, #221800, #220000, #001822);
                 background-attachment: fixed;
-                --button-hover-color: #AA0000;;
+              }
+              
+              .button:hover {
+                background-color: #AA0000;
               }
               
               .notfound {
@@ -20,11 +27,18 @@ let style1 = `:root {
                 text-align: left;
               }`;
 
-let style2 = `:root {
-                --background-color: #00000000;
+let style2 =  `body {
+                background-color: #00000000;
+              }
+              
+              :root {
+                background-color: #00000000;
                 background-image: linear-gradient(#080022, #221800);
                 background-attachment: fixed;
-                --button-hover-color: #201188;
+              }
+              
+              .button:hover {
+                background-color: #201188;
               }
               
               .notfound {
@@ -92,5 +106,4 @@ function scriptInit() {
  */
 window.onload = () => {
     scriptInit();
-    resizeInit();
 }

@@ -25,7 +25,7 @@
 
 .back {
     grid-area: back;
-    background-color: var(--box-hover-color);
+    background-color: #C8C8FF2E;
 }
 
 .logo {
@@ -50,17 +50,17 @@
 }
 
 .github-svg {
-    filter: invert() brightness(1000%);
+    filter: brightness(0%) invert();
     width: 25%;
 }
 
 .discord-svg {
-    filter: brightness(1000%);
+    filter: brightness(0%) invert();
     width: 60%;
 }
 
 .email-svg {
-    filter: invert() brightness(1000%);
+    filter: brightness(0%) invert();
     width: 60%;
 }
 

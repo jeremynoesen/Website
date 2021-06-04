@@ -1,7 +1,7 @@
 .grid {
-    margin-bottom: var(--gap-size);
+    margin-bottom: 0;
     grid-template-areas:
-          'back about projects blog'
+          'back about projects blog';
 }
 
 .back {
@@ -18,7 +18,7 @@
 
 .blog {
     grid-area: blog;
-    background-color: var(--box-hover-color);
+    background-color: #C8C8FF2E;
 }
 
 .logo {
@@ -30,21 +30,28 @@
     text-align: left;
     justify-content: unset;
     align-items: unset;
-    height: max-content;
-}
-
-hr {
-    border-color: var(--box-hover-color);
 }
 
 .posts {
     display: grid;
-    grid-gap: var(--gap-size);
-    width: var(--grid-width);
-    margin: var(--margin-size);
-    margin-top: 0;
+    width: 768px;
+    place-content: center;
+    margin: 16px auto 100px;
+    grid-gap: 16px;
 }
 
 .img {
-    border-radius: var(--border-radius);
+    border-radius: 32px;
+}
+
+@media screen and (max-width: 1080px) {
+    .posts {
+        width: 94vw;
+        margin: 2vw auto;
+        grid-gap: 2vw;
+    }
+
+    .img {
+        border-radius: 4vw;
+    }
 }
