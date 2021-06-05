@@ -44,11 +44,6 @@
     border-radius: 32px;
 }
 
-.copytext {
-    filter: opacity(0);
-    height: 0;
-}
-
 @media screen and (max-width: 1080px) {
     .posts {
         width: 94vw;

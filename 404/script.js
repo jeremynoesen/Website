@@ -64,6 +64,7 @@ function keyEvent(event) {
 
     if (buffer.join("") === "sus") {
         if (status !== 1) {
+            console.log('Sus mode activated!');
             player.src = sound;
             player.loop = true;
             player.load();
@@ -73,6 +74,7 @@ function keyEvent(event) {
             buffer = ["", "", ""];
             status = 1;
         } else {
+            console.log('Sus mode deactivated!');
             player.pause();
             document.head.removeChild(styleSheet);
             buffer = ["", "", ""];
@@ -80,12 +82,14 @@ function keyEvent(event) {
         }
     } else if (buffer.join("") === "p3d") {
         if (status !== 2) {
+            console.log('P3D mode activated!');
             player.pause();
             styleSheet.innerText = style2;
             document.head.appendChild(styleSheet);
             buffer = ["", "", ""];
             status = 2;
         } else {
+            console.log('P3D mode deactivated!');
             document.head.removeChild(styleSheet);
             buffer = ["", "", ""];
             status = 0;
