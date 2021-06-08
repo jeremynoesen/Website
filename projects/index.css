@@ -1,14 +1,14 @@
 .grid {
     grid-template-areas:
           'back about projects blog'
-          'fav fav fav fav'
+          'current current current current'
           'p3d p3d p3dinfo p3dinfo'
           'p3d p3d p3dinfo p3dinfo'
           'bonebot bonebot bonebotinfo bonebotinfo'
           'bonebot bonebot bonebotinfo bonebotinfo'
           'site site siteinfo siteinfo'
           'site site siteinfo siteinfo'
-          'mc mc mc mc'
+          'minecraft minecraft minecraft minecraft'
           'couriernew couriernew couriernewinfo couriernewinfo'
           'couriernew couriernew couriernewinfo couriernewinfo'
           'volleyball volleyball volleyballinfo volleyballinfo'
@@ -18,8 +18,6 @@
           'school school school school'
           'chirrup chirrup chirrupinfo chirrupinfo'
           'chirrup chirrup chirrupinfo chirrupinfo'
-          'delbot delbot delbotinfo delbotinfo'
-          'delbot delbot delbotinfo delbotinfo'
           'cannonpong cannonpong cannonponginfo cannonponginfo'
           'cannonpong cannonpong cannonponginfo cannonponginfo';
 }
@@ -41,12 +39,12 @@
     background-color: #C8C8FF2E;
 }
 
-.fav {
-    grid-area: fav;
+.current {
+    grid-area: current;
 }
 
-.mc {
-    grid-area: mc;
+.minecraft {
+    grid-area: minecraft;
 }
 
 .school {
@@ -120,17 +118,6 @@
 
 .chirrupinfo {
     grid-area: chirrupinfo;
-    text-align: left;
-    justify-content: unset;
-}
-
-.delbot {
-    grid-area: delbot;
-    color: #C8C8FF2E;
-}
-
-.delbotinfo {
-    grid-area: delbotinfo;
     text-align: left;
     justify-content: unset;
 }
