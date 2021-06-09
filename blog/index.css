@@ -42,6 +42,15 @@
 
 .img {
     border-radius: 32px;
+    transition: transform 0.25s;
+}
+
+.img:hover {
+    transform: scale(1.025);
+}
+
+.post a {
+    color: white;
 }
 
 @media screen and (max-width: 1080px) {
