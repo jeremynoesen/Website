@@ -7,7 +7,7 @@
 
 .notfound {
     grid-area: notfound;
-    transition: background-position 0.25s, transform 0.25s, background-color 0.25s;;
+    transition: background-position 0.25s, transform 0.25s, background-color 0.25s, background-image 0.25s;
 }
 
 .back {
