@@ -56,6 +56,11 @@ body {
   transform: scale(1.05);
 }
 
+hr {
+  border-color: white;
+  color: white;
+}
+
 @media screen and (max-width: 1080px) {
   .grid {
     grid-gap: 2vw;
