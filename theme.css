@@ -11,13 +11,14 @@ This is a custom theme by Jeremy Noesen
 
 body {
   background-color: #070c1d;
-  background-image: linear-gradient(to bottom, #070c1d, #000000);
+  background-image: linear-gradient(to bottom, #070c1d, #010513);
   background-attachment: fixed;
   font-family: "Nunito", sans-serif;
   color: #FFFFFF;
   text-align: center;
-  line-height: 24px;
+  line-height: 26px;
   font-size: 16px;
+  font-weight: lighter;
   animation-name: show;
   animation-duration: 0.25s;
 }
