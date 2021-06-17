@@ -59,6 +59,9 @@ body {
 hr {
   border-color: white;
   color: white;
+  background-color: white;
+  border-style: solid;
+  border-radius: 16px;
 }
 
 @media screen and (max-width: 1080px) {
