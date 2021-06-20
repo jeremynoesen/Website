@@ -34,7 +34,7 @@ let style2 =  `body {
               }
               
               .notfound {
-                background-image: url(https://raw.githubusercontent.com/jeremynoesen/Pseudo3D/physics-rewrite/img/Perspective.gif);
+                background-image: url(https://raw.githubusercontent.com/jeremynoesen/Pseudo3D/main/img/Perspective.gif);
                 background-size: cover;
                 background-position-y: 100%;
                 justify-content: unset;
