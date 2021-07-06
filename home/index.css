@@ -65,12 +65,15 @@
 
 .github:hover {
     background-color: #000000;
+    transform: scale(1.03);
 }
 
 .discord:hover {
     background-color: #5865f2;
+    transform: scale(1.03);
 }
 
 .email:hover {
     background-color: #EA4335;
+    transform: scale(1.03);
 }

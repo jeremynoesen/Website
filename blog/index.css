@@ -31,6 +31,10 @@
     align-items: unset;
 }
 
+.post:hover {
+    transform: scale(1.01);
+}
+
 .posts {
     display: grid;
     width: 768px;
@@ -41,11 +45,13 @@
 
 .img {
     border-radius: 32px;
-    transition: transform 0.25s;
+    transition: transform 0.25s, box-shadow 0.25s;
+    box-shadow: 0 12px 12px #000000BB;
 }
 
 .img:hover {
-    transform: scale(1.025);
+    transform: scale(1.02);
+    box-shadow: 0 12px 12px #00000066;
 }
 
 .post a {
@@ -61,5 +67,11 @@
 
     .img {
         border-radius: 4vw;
+        transition: transform 0.25s, box-shadow 0.25s;
+        box-shadow: 0 1.5vw 1.5vw #000000BB;
+    }
+
+    .img:hover {
+        box-shadow: 0 1.5vw 1.5vw #00000066;
     }
 }
