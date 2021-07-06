@@ -89,7 +89,7 @@ hr {
 
   .box {
     padding: 4vw;
-    box-shadow: 0 0 2vw #000000;
+    box-shadow: 0 1vw 2vw #000000BB;
     border-radius: 4vw;
   }
 }
