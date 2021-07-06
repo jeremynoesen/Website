@@ -10,11 +10,11 @@ This is a custom theme by Jeremy Noesen
 }
 
 body {
-  background-color: #070c1d;
+  background-color: #0a122b;
   background-image: linear-gradient(to bottom, #0a122b, #02081d);
   background-attachment: fixed;
   font-family: "Nunito", sans-serif;
-  color: #FFFFFF;
+  color: white;
   text-align: center;
   line-height: 26px;
   font-size: 16px;
@@ -36,7 +36,7 @@ body {
   transition: transform 0.25s, background-color 0.25s;
   padding: 32px;
   background-color: #A2A2FF14;
-  box-shadow: 0 0 16px #000000;
+  box-shadow: 0 0 16px black;
   color: inherit;
   text-decoration: none;
   display: flex;
@@ -62,6 +62,16 @@ hr {
   background-color: white;
   border-style: solid;
   border-radius: 16px;
+}
+
+::-moz-selection {
+  color: #0a122b;
+  background: white;
+}
+
+::selection {
+  color: #0a122b;
+  background: white;
 }
 
 @media screen and (max-width: 1080px) {
