@@ -23,7 +23,7 @@ let style1 = `body {
                 text-align: left;
               }`;
 
-let style2 =  `body {
+let style2 = `body {
                 background-color: #00000000;
                 background-image: linear-gradient(#080022, #221800);
                 background-attachment: fixed;
