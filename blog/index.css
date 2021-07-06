@@ -45,7 +45,7 @@
 
 .img {
     border-radius: 32px;
-    transition: transform 0.25s, box-shadow 0.25s;
+    transition: transform 0.25s cubic-bezier(0.5, 0, 0.25, 2), box-shadow 0.25s cubic-bezier(0.5, 0, 0.25, 2);
     box-shadow: 0 12px 12px #000000BB;
 }
 
@@ -67,7 +67,6 @@
 
     .img {
         border-radius: 4vw;
-        transition: transform 0.25s, box-shadow 0.25s;
         box-shadow: 0 1.5vw 1.5vw #000000BB;
     }
 
