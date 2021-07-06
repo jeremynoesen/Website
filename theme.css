@@ -10,8 +10,8 @@ This is a custom theme by Jeremy Noesen
 }
 
 body {
-  background-color: #0a122b;
-  background-image: linear-gradient(to bottom, #0a122b, #02081d);
+  background-color: #0e1736;
+  background-image: linear-gradient(210deg, #0e1736, #01040e);
   background-attachment: fixed;
   font-family: "Nunito", sans-serif;
   color: white;
@@ -53,7 +53,7 @@ body {
 }
 
 .button:hover {
-  background-color: #1a58ff;
+  background-color: #565E877C;
   transform: translateY(-12px);
   box-shadow: 0 24px 24px #000000AA;
 }
