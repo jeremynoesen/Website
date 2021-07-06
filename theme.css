@@ -35,7 +35,7 @@ body {
 .box {
   transition: transform 0.25s, background-color 0.25s;
   padding: 32px;
-  background-color: #A2A2FF19;
+  background-color: #565E8719;
   box-shadow: 0 12px 12px #000000BB;
   color: inherit;
   text-decoration: none;
@@ -47,7 +47,7 @@ body {
 }
 
 .box:hover {
-  background-color: #A2A2FF23;
+  background-color: #565E8728;
   transform: scale(1.01);
 }
 
