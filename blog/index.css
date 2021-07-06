@@ -51,7 +51,7 @@
 
 .img:hover {
     transform: scale(1.02);
-    box-shadow: 0 12px 12px #00000066;
+    box-shadow: 0 18px 18px #000000AA;
 }
 
 .post a {
@@ -72,6 +72,6 @@
     }
 
     .img:hover {
-        box-shadow: 0 1.5vw 1.5vw #00000066;
+        box-shadow: 0 2.25vw 2.25vw #000000AA;
     }
 }

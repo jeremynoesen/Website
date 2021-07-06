@@ -49,7 +49,7 @@ body {
 .box:hover {
   background-color: #565E8730;
   transform: scale(1.015);
-  box-shadow: 0 12px 12px #00000066;
+  box-shadow: 0 18px 18px #000000AA;
 }
 
 .button:hover {
@@ -79,7 +79,7 @@ hr {
 @media screen and (max-width: 1080px) {
   .grid {
     grid-gap: 2vw;
-    margin: 0 auto;
+    margin: 2.5vw auto;
     grid-auto-columns: 22vw;
     grid-auto-rows: 22vw;
   }
@@ -97,7 +97,7 @@ hr {
 
   .box:hover {
     background-color: #565E8728;
-    box-shadow: 0 1.5vw 1.5vw #00000066;
+    box-shadow: 0 2.25vw 2.25vw #000000AA;
   }
 
   .button:hover {
