@@ -11,7 +11,7 @@ let style1 = `body {
               }
               
               .button:hover {
-                background-color: #AA0000;
+                background-color: #AA444444;
               }
               
               .notfound {
@@ -30,7 +30,7 @@ let style2 = `body {
               }
               
               .button:hover {
-                background-color: #201188;
+                background-color: #40308888;
               }
               
               .notfound {

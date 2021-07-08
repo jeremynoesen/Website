@@ -58,7 +58,7 @@ body {
 }
 
 .button:hover {
-    background-color: rgba(79, 88, 135, 0.49);
+    background-color: #4F58877C;
     transform: translateY(-12px);
     box-shadow: 0 24px 24px #000000AA;
 }
