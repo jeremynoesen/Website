@@ -31,10 +31,6 @@
     align-items: unset;
 }
 
-.post:hover {
-    transform: scale(1.01);
-}
-
 .posts {
     display: grid;
     width: 768px;
@@ -50,7 +46,7 @@
 }
 
 .img:hover {
-    transform: scale(1.02);
+    transform: scale(1.025);
     box-shadow: 0 18px 18px #000000AA;
 }
 
