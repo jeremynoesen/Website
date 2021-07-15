@@ -101,12 +101,10 @@ hr {
     }
 
     .box:hover {
-        background-color: #565E8728;
-        box-shadow: 0 2.25vw 2.25vw #000000AA;
+        box-shadow: 0 3vw 3vw #000000AA;
     }
 
     .button:hover {
-        background-color: #0046ff;
         transform: translateY(-1.5vw);
         box-shadow: 0 3vw 3vw #000000AA;
     }
