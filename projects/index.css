@@ -1,25 +1,14 @@
 .grid {
     grid-template-areas:
           'back about projects blog'
-          'current current current current'
-          'p3d p3d p3dinfo p3dinfo'
-          'p3d p3d p3dinfo p3dinfo'
-          'site site siteinfo siteinfo'
-          'site site siteinfo siteinfo'
-          'bonebot bonebot bonebotinfo bonebotinfo'
-          'bonebot bonebot bonebotinfo bonebotinfo'
-          'minecraft minecraft minecraft minecraft'
-          'couriernew couriernew couriernewinfo couriernewinfo'
-          'couriernew couriernew couriernewinfo couriernewinfo'
-          'volleyball volleyball volleyballinfo volleyballinfo'
-          'volleyball volleyball volleyballinfo volleyballinfo'
-          'hardcorelists hardcorelists hardcorelistsinfo hardcorelistsinfo'
-          'hardcorelists hardcorelists hardcorelistsinfo hardcorelistsinfo'
-          'school school school school'
-          'chirrup chirrup chirrupinfo chirrupinfo'
-          'chirrup chirrup chirrupinfo chirrupinfo'
-          'cannonpong cannonpong cannonponginfo cannonponginfo'
-          'cannonpong cannonpong cannonponginfo cannonponginfo';
+          'p3d p3dinfo p3dinfo p3dinfo'
+          'site siteinfo siteinfo siteinfo'
+          'bonebot bonebotinfo bonebotinfo bonebotinfo'
+          'couriernew couriernewinfo couriernewinfo couriernewinfo'
+          'volleyball volleyballinfo volleyballinfo volleyballinfo'
+          'hardcorelists hardcorelistsinfo hardcorelistsinfo hardcorelistsinfo'
+          'chirrup chirrupinfo chirrupinfo chirrupinfo'
+          'cannonpong cannonponginfo cannonponginfo cannonponginfo';
 }
 
 .back {
@@ -112,6 +101,7 @@
 
 .chirrup {
     grid-area: chirrup;
+    color: #FFFFFF22;
 }
 
 .chirrupinfo {
@@ -138,4 +128,8 @@
 
 .icons {
     width: 85%;
+}
+
+h3 {
+    line-height: 50%;
 }
