@@ -81,10 +81,6 @@ hr {
     background: white;
 }
 
-h3 {
-    line-height: 50%;
-}
-
 @media screen and (max-width: 1080px) {
     .grid {
         grid-gap: 2vw;
