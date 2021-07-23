@@ -32,7 +32,7 @@ body {
     display: grid;
     place-content: center;
     grid-gap: 16px;
-    margin: 100px auto;
+    margin: 5vw auto;
     grid-auto-columns: 180px;
     grid-auto-rows: 180px;
 }

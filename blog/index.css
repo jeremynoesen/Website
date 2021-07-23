@@ -35,7 +35,7 @@
     display: grid;
     width: 768px;
     place-content: center;
-    margin: 16px auto 100px;
+    margin: 16px auto 5vw;
     grid-gap: 16px;
 }
 
