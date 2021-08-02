@@ -26,7 +26,7 @@
 
 .portrait {
     grid-area: portrait;
-    background-image: url(resources/Portrait.jpeg);
+    background-image: url(resources/Portrait_small.jpg);
     background-size: cover;
 }
 
