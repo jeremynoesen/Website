@@ -2,8 +2,9 @@
     grid-template-areas:
           'back about projects blog'
           'p3d p3dinfo p3dinfo p3dinfo'
-          'site siteinfo siteinfo siteinfo'
           'bonebot bonebotinfo bonebotinfo bonebotinfo'
+          'site siteinfo siteinfo siteinfo'
+          'matrixdisplay matrixdisplayinfo matrixdisplayinfo matrixdisplayinfo'
           'couriernew couriernewinfo couriernewinfo couriernewinfo'
           'volleyball volleyballinfo volleyballinfo volleyballinfo'
           'hardcorelists hardcorelistsinfo hardcorelistsinfo hardcorelistsinfo'
@@ -65,6 +66,17 @@
 
 .siteinfo {
     grid-area: siteinfo;
+    text-align: left;
+    justify-content: unset;
+}
+
+.matrixdisplay {
+    grid-area: matrixdisplay;
+    color: #FFFFFF22;
+}
+
+.matrixdisplayinfo {
+    grid-area: matrixdisplayinfo;
     text-align: left;
     justify-content: unset;
 }
