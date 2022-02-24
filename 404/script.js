@@ -3,9 +3,7 @@ let status = 0;
 let buffer = ["", "", ""];
 
 let style1 = `body {
-                background-color: #00000000;
                 background-image: linear-gradient(to right, #221800, #220000, #001822);
-                background-attachment: fixed;
               }
               
               .button:hover {
@@ -22,9 +20,7 @@ let style1 = `body {
               }`;
 
 let style2 = `body {
-                background-color: #00000000;
                 background-image: linear-gradient(#080022, #221800);
-                background-attachment: fixed;
               }
               
               .button:hover {
