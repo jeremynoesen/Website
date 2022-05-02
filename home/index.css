@@ -2,7 +2,7 @@
     grid-template-areas:
           'back about projects blog'
           'welcomebox welcomebox github github'
-          'welcomebox welcomebox discord email';
+          'welcomebox welcomebox email email';
 }
 
 .welcomebox {
@@ -40,9 +40,6 @@
     grid-area: github;
 }
 
-.discord {
-    grid-area: discord;
-}
 
 .email {
     grid-area: email;
@@ -53,27 +50,7 @@
     width: 20%;
 }
 
-.discord-svg {
-    filter: brightness(0%) invert();
-    width: 50%;
-}
-
 .email-svg {
     filter: brightness(0%) invert();
-    width: 50%;
-}
-
-.github:hover {
-    background-color: #000000;
-    transform: scale(1.03);
-}
-
-.discord:hover {
-    background-color: #5865f2;
-    transform: scale(1.03);
-}
-
-.email:hover {
-    background-color: #EA4335;
-    transform: scale(1.03);
+    width: 20%;
 }
