@@ -7,9 +7,7 @@
           'matrixdisplay matrixdisplayinfo matrixdisplayinfo matrixdisplayinfo'
           'couriernew couriernewinfo couriernewinfo couriernewinfo'
           'volleyball volleyballinfo volleyballinfo volleyballinfo'
-          'hardcorelists hardcorelistsinfo hardcorelistsinfo hardcorelistsinfo'
-          'chirrup chirrupinfo chirrupinfo chirrupinfo'
-          'cannonpong cannonponginfo cannonponginfo cannonponginfo';
+          'hardcorelists hardcorelistsinfo hardcorelistsinfo hardcorelistsinfo';
 }
 
 .back {
@@ -107,28 +105,6 @@
 
 .hardcorelistsinfo {
     grid-area: hardcorelistsinfo;
-    text-align: left;
-    justify-content: unset;
-}
-
-.chirrup {
-    grid-area: chirrup;
-    color: #FFFFFF22;
-}
-
-.chirrupinfo {
-    grid-area: chirrupinfo;
-    text-align: left;
-    justify-content: unset;
-}
-
-.cannonpong {
-    grid-area: cannonpong;
-    image-rendering: pixelated;
-}
-
-.cannonponginfo {
-    grid-area: cannonponginfo;
     text-align: left;
     justify-content: unset;
 }
