@@ -1,6 +1,6 @@
 .grid {
     grid-template-areas:
-          'back about projects blog'
+          'back about projects resume'
           'welcomebox welcomebox github github'
           'welcomebox welcomebox email email';
 }
@@ -15,8 +15,8 @@
     grid-area: about;
 }
 
-.blog {
-    grid-area: blog;
+.resume {
+    grid-area: resume;
 }
 
 .projects {

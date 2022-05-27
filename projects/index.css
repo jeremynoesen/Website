@@ -1,6 +1,6 @@
 .grid {
     grid-template-areas:
-          'back about projects blog'
+          'back about projects resume'
           'p3d p3dinfo p3dinfo p3dinfo'
           'bonebot bonebotinfo bonebotinfo bonebotinfo'
           'site siteinfo siteinfo siteinfo'
@@ -14,8 +14,8 @@
     grid-area: back;
 }
 
-.blog {
-    grid-area: blog;
+.resume {
+    grid-area: resume;
 }
 
 .about {

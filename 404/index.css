@@ -1,6 +1,6 @@
 .grid {
     grid-template-areas:
-          'back about projects blog'
+          'back about projects resume'
           'notfound notfound notfound notfound'
           'notfound notfound notfound notfound';
 }
@@ -14,8 +14,8 @@
     grid-area: back;
 }
 
-.blog {
-    grid-area: blog;
+.resume {
+    grid-area: resume;
 }
 
 .projects {
