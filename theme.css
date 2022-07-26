@@ -6,8 +6,8 @@ This is a custom theme by Jeremy Noesen
 
 @keyframes show {
     0% {
-        opacity: 0.5;
-        filter: blur(4px)
+        opacity: 0;
+        transform: translateY(5vh);
     }
     100% {
         opacity: 1
