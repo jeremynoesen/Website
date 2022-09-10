@@ -2,12 +2,22 @@
     grid-template-areas:
           'back about projects resume'
           'p3d p3dinfo p3dinfo p3dinfo'
-          'bonebot bonebotinfo bonebotinfo bonebotinfo'
           'site siteinfo siteinfo siteinfo'
-          'matrixdisplay matrixdisplayinfo matrixdisplayinfo matrixdisplayinfo'
-          'couriernew couriernewinfo couriernewinfo couriernewinfo'
+          'bonebot bonebotinfo bonebotinfo bonebotinfo'
           'volleyball volleyballinfo volleyballinfo volleyballinfo'
-          'hardcorelists hardcorelistsinfo hardcorelistsinfo hardcorelistsinfo';
+          'couriernew couriernewinfo couriernewinfo couriernewinfo'
+          'hardcorelists hardcorelistsinfo hardcorelistsinfo hardcorelistsinfo'
+          'dysonbp01 dysonbp01info dysonbp01info dysonbp01info'
+          'matrixdisplay matrixdisplayinfo matrixdisplayinfo matrixdisplayinfo';
+}
+
+.logo {
+    filter: brightness(0%) invert();
+    width: 85%;
+}
+
+.icons {
+    width: 85%;
 }
 
 .back {
@@ -48,16 +58,6 @@
     justify-content: unset;
 }
 
-.bonebot {
-    grid-area: bonebot;
-}
-
-.bonebotinfo {
-    grid-area: bonebotinfo;
-    text-align: left;
-    justify-content: unset;
-}
-
 .site {
     grid-area: site;
 }
@@ -68,23 +68,12 @@
     justify-content: unset;
 }
 
-.matrixdisplay {
-    grid-area: matrixdisplay;
-    color: #FFFFFF22;
+.bonebot {
+    grid-area: bonebot;
 }
 
-.matrixdisplayinfo {
-    grid-area: matrixdisplayinfo;
-    text-align: left;
-    justify-content: unset;
-}
-
-.couriernew {
-    grid-area: couriernew;
-}
-
-.couriernewinfo {
-    grid-area: couriernewinfo;
+.bonebotinfo {
+    grid-area: bonebotinfo;
     text-align: left;
     justify-content: unset;
 }
@@ -99,6 +88,16 @@
     justify-content: unset;
 }
 
+.couriernew {
+    grid-area: couriernew;
+}
+
+.couriernewinfo {
+    grid-area: couriernewinfo;
+    text-align: left;
+    justify-content: unset;
+}
+
 .hardcorelists {
     grid-area: hardcorelists;
 }
@@ -109,11 +108,24 @@
     justify-content: unset;
 }
 
-.logo {
-    filter: brightness(0%) invert();
-    width: 85%;
+.dysonbp01 {
+    grid-area: dysonbp01;
+    color: #FFFFFF22;
 }
 
-.icons {
-    width: 85%;
+.dysonbp01info {
+    grid-area: dysonbp01info;
+    text-align: left;
+    justify-content: unset;
+}
+
+.matrixdisplay {
+    grid-area: matrixdisplay;
+    color: #FFFFFF22;
+}
+
+.matrixdisplayinfo {
+    grid-area: matrixdisplayinfo;
+    text-align: left;
+    justify-content: unset;
 }
