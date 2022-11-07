@@ -29,4 +29,9 @@
 .logo {
     filter: brightness(0%) invert();
     width: 85%;
+    transition: 0.25s;
+}
+
+.back:hover .logo {
+    filter: none;
 }

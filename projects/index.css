@@ -11,15 +11,6 @@
           'matrixdisplay matrixdisplayinfo matrixdisplayinfo matrixdisplayinfo';
 }
 
-.logo {
-    filter: brightness(0%) invert();
-    width: 85%;
-}
-
-.icons {
-    width: 85%;
-}
-
 .back {
     grid-area: back;
 }
@@ -111,6 +102,11 @@
 .dysonbp01 {
     grid-area: dysonbp01;
     color: #FFFFFF22;
+    transition: transform 0.25s cubic-bezier(0.5, 0, 0.25, 2), background-color 0.25s, box-shadow 0.25s cubic-bezier(0.5, 0, 0.25, 2), color 0.25s;
+}
+
+.dysonbp01:hover {
+    color: #FFFFFFFF;
 }
 
 .dysonbp01info {
@@ -122,10 +118,34 @@
 .matrixdisplay {
     grid-area: matrixdisplay;
     color: #FFFFFF22;
+    transition: transform 0.25s cubic-bezier(0.5, 0, 0.25, 2), background-color 0.25s, box-shadow 0.25s cubic-bezier(0.5, 0, 0.25, 2), color 0.25s;
+}
+
+.matrixdisplay:hover {
+    color: #FFFFFFFF;
 }
 
 .matrixdisplayinfo {
     grid-area: matrixdisplayinfo;
     text-align: left;
     justify-content: unset;
+}
+
+.logo {
+    filter: brightness(0%) invert();
+    width: 85%;
+    transition: 0.25s;
+}
+
+.back:hover .logo {
+    filter: none;
+}
+
+.icon {
+    transition: 0.25s;
+    width: 85%;
+}
+
+.iconbox:hover .icon {
+    filter: brightness(0%) invert();
 }
