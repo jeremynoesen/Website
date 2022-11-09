@@ -17,6 +17,11 @@ let style1 = `body {
                 justify-content: unset;
                 align-items: unset;
                 text-align: left;
+                transition: transform 0.25s cubic-bezier(0.5, 0, 0.25, 2), background-color 0.25s, box-shadow 0.25s cubic-bezier(0.5, 0, 0.25, 2), filter 0.25s;
+              }
+              
+              .notfound:hover {
+                filter: brightness(110%)
               }`;
 
 let style2 = `body {
@@ -35,6 +40,11 @@ let style2 = `body {
                 align-items: unset;
                 text-align: left;
                 image-rendering: pixelated;
+                transition: transform 0.25s cubic-bezier(0.5, 0, 0.25, 2), background-color 0.25s, box-shadow 0.25s cubic-bezier(0.5, 0, 0.25, 2), filter 0.25s;
+              }
+              
+              .notfound:hover {
+                filter: brightness(110%)
               }`;
 
 let styleSheet = document.createElement("style");
