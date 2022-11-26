@@ -12,12 +12,10 @@ let style1 = `body {
               
               .notfound {
                 background-image: url(resources/drip.jpg);
-                background-size: cover;
                 background-position-y: 30%;
                 justify-content: unset;
                 align-items: unset;
                 text-align: left;
-                transition: transform 0.25s cubic-bezier(0.5, 0, 0.25, 2), background-color 0.25s, box-shadow 0.25s cubic-bezier(0.5, 0, 0.25, 2), filter 0.25s;
               }
               
               .notfound:hover {
@@ -34,13 +32,11 @@ let style2 = `body {
               
               .notfound {
                 background-image: url(resources/p3d.gif);
-                background-size: cover;
                 background-position-y: 100%;
                 justify-content: unset;
                 align-items: unset;
                 text-align: left;
                 image-rendering: pixelated;
-                transition: transform 0.25s cubic-bezier(0.5, 0, 0.25, 2), background-color 0.25s, box-shadow 0.25s cubic-bezier(0.5, 0, 0.25, 2), filter 0.25s;
               }
               
               .notfound:hover {
