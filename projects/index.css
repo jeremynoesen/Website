@@ -1,14 +1,14 @@
 .grid {
     grid-template-areas:
           'back about projects resume'
-          'p3d p3dinfo p3dinfo p3dinfo'
+          'dysonbp01 dysonbp01info dysonbp01info dysonbp01info'
+          'matrixdisplay matrixdisplayinfo matrixdisplayinfo matrixdisplayinfo'
           'site siteinfo siteinfo siteinfo'
           'bonebot bonebotinfo bonebotinfo bonebotinfo'
-          'volleyball volleyballinfo volleyballinfo volleyballinfo'
-          'couriernew couriernewinfo couriernewinfo couriernewinfo'
+          'p3d p3dinfo p3dinfo p3dinfo'
           'hardcorelists hardcorelistsinfo hardcorelistsinfo hardcorelistsinfo'
-          'dysonbp01 dysonbp01info dysonbp01info dysonbp01info'
-          'matrixdisplay matrixdisplayinfo matrixdisplayinfo matrixdisplayinfo';
+          'volleyball volleyballinfo volleyballinfo volleyballinfo'
+          'couriernew couriernewinfo couriernewinfo couriernewinfo';
 }
 
 .back {
@@ -25,78 +25,6 @@
 
 .projects {
     grid-area: projects;
-}
-
-.current {
-    grid-area: current;
-}
-
-.minecraft {
-    grid-area: minecraft;
-}
-
-.school {
-    grid-area: school;
-}
-
-.p3d {
-    grid-area: p3d;
-}
-
-.p3dinfo {
-    grid-area: p3dinfo;
-    text-align: left;
-    justify-content: unset;
-}
-
-.site {
-    grid-area: site;
-}
-
-.siteinfo {
-    grid-area: siteinfo;
-    text-align: left;
-    justify-content: unset;
-}
-
-.bonebot {
-    grid-area: bonebot;
-}
-
-.bonebotinfo {
-    grid-area: bonebotinfo;
-    text-align: left;
-    justify-content: unset;
-}
-
-.volleyball {
-    grid-area: volleyball;
-}
-
-.volleyballinfo {
-    grid-area: volleyballinfo;
-    text-align: left;
-    justify-content: unset;
-}
-
-.couriernew {
-    grid-area: couriernew;
-}
-
-.couriernewinfo {
-    grid-area: couriernewinfo;
-    text-align: left;
-    justify-content: unset;
-}
-
-.hardcorelists {
-    grid-area: hardcorelists;
-}
-
-.hardcorelistsinfo {
-    grid-area: hardcorelistsinfo;
-    text-align: left;
-    justify-content: unset;
 }
 
 .dysonbp01 {
@@ -127,6 +55,66 @@
 
 .matrixdisplayinfo {
     grid-area: matrixdisplayinfo;
+    text-align: left;
+    justify-content: unset;
+}
+
+.site {
+    grid-area: site;
+}
+
+.siteinfo {
+    grid-area: siteinfo;
+    text-align: left;
+    justify-content: unset;
+}
+
+.bonebot {
+    grid-area: bonebot;
+}
+
+.bonebotinfo {
+    grid-area: bonebotinfo;
+    text-align: left;
+    justify-content: unset;
+}
+
+.p3d {
+    grid-area: p3d;
+}
+
+.p3dinfo {
+    grid-area: p3dinfo;
+    text-align: left;
+    justify-content: unset;
+}
+
+.hardcorelists {
+    grid-area: hardcorelists;
+}
+
+.hardcorelistsinfo {
+    grid-area: hardcorelistsinfo;
+    text-align: left;
+    justify-content: unset;
+}
+
+.volleyball {
+    grid-area: volleyball;
+}
+
+.volleyballinfo {
+    grid-area: volleyballinfo;
+    text-align: left;
+    justify-content: unset;
+}
+
+.couriernew {
+    grid-area: couriernew;
+}
+
+.couriernewinfo {
+    grid-area: couriernewinfo;
     text-align: left;
     justify-content: unset;
 }
