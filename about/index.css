@@ -25,7 +25,7 @@
 
 .portrait {
     grid-area: portrait;
-    background-image: url(resources/Portrait_small.jpg);
+    background-image: url(resources/Portrait.jpg);
     background-size: cover;
     transition: transform 0.25s cubic-bezier(0.5, 0, 0.25, 2), background-color 0.25s, box-shadow 0.25s cubic-bezier(0.5, 0, 0.25, 2), filter 0.25s;
 }

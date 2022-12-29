@@ -3,7 +3,7 @@
 # Website
 
 ## About
-This is my personal website. Click the link in the repo description to view.
+This is my personal website and portfolio. Click the link in the repository description to view.
 
 ## Purpose
 I decided to create this website to mainly use as a portfolio, show information about myself, and to dive into new territory for my coding abilities.
