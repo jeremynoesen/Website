@@ -22,27 +22,6 @@ let style1 = `body {
                 filter: brightness(110%)
               }`;
 
-let style2 = `body {
-                background-image: linear-gradient(#080022, #221800);
-              }
-              
-              .button:hover {
-                background-color: #40308888;
-              }
-              
-              .notfound {
-                background-image: url(resources/p3d.gif);
-                background-position-y: 100%;
-                justify-content: unset;
-                align-items: unset;
-                text-align: left;
-                image-rendering: pixelated;
-              }
-              
-              .notfound:hover {
-                filter: brightness(110%)
-              }`;
-
 let styleSheet = document.createElement("style");
 
 /**
@@ -56,7 +35,6 @@ function keyEvent(event) {
 
     if (buffer.join("") === "sus") {
         if (status !== 1) {
-            console.log('Sus mode activated!');
             player.src = "resources/drip.mpga";
             player.loop = true;
             player.load();
@@ -66,22 +44,7 @@ function keyEvent(event) {
             buffer = ["", "", ""];
             status = 1;
         } else {
-            console.log('Sus mode deactivated!');
             player.pause();
-            document.head.removeChild(styleSheet);
-            buffer = ["", "", ""];
-            status = 0;
-        }
-    } else if (buffer.join("") === "p3d") {
-        if (status !== 2) {
-            console.log('P3D mode activated!');
-            player.pause();
-            styleSheet.innerText = style2;
-            document.head.appendChild(styleSheet);
-            buffer = ["", "", ""];
-            status = 2;
-        } else {
-            console.log('P3D mode deactivated!');
             document.head.removeChild(styleSheet);
             buffer = ["", "", ""];
             status = 0;

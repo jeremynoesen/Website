@@ -5,7 +5,6 @@
           'matrixdisplay matrixdisplayinfo matrixdisplayinfo matrixdisplayinfo'
           'site siteinfo siteinfo siteinfo'
           'bonebot bonebotinfo bonebotinfo bonebotinfo'
-          'p3d p3dinfo p3dinfo p3dinfo'
           'hardcorelists hardcorelistsinfo hardcorelistsinfo hardcorelistsinfo'
           'volleyball volleyballinfo volleyballinfo volleyballinfo'
           'couriernew couriernewinfo couriernewinfo couriernewinfo';
@@ -69,16 +68,6 @@
 
 .bonebotinfo {
     grid-area: bonebotinfo;
-    text-align: left;
-    justify-content: unset;
-}
-
-.p3d {
-    grid-area: p3d;
-}
-
-.p3dinfo {
-    grid-area: p3dinfo;
     text-align: left;
     justify-content: unset;
 }
