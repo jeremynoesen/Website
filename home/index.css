@@ -28,12 +28,7 @@
 }
 
 .logo {
-    transition: 0.25s;
     width: 85%;
-}
-
-.back:hover .logo {
-    filter: brightness(0%) invert();
 }
 
 .github {

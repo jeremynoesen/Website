@@ -16,10 +16,6 @@ let style1 = `body {
                 justify-content: unset;
                 align-items: unset;
                 text-align: left;
-              }
-              
-              .notfound:hover {
-                filter: brightness(110%)
               }`;
 
 let styleSheet = document.createElement("style");

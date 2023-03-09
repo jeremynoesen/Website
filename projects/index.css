@@ -39,11 +39,6 @@
 .matrixdisplay {
     grid-area: matrixdisplay;
     color: #FFFFFF22;
-    transition: transform 0.25s cubic-bezier(0.5, 0, 0.25, 2), background-color 0.25s, box-shadow 0.25s cubic-bezier(0.5, 0, 0.25, 2), color 0.25s;
-}
-
-.matrixdisplay:hover {
-    color: #FFFFFFFF;
 }
 
 .matrixdisplayinfo {
@@ -105,18 +100,8 @@
 .logo {
     filter: brightness(0%) invert();
     width: 85%;
-    transition: 0.25s;
-}
-
-.back:hover .logo {
-    filter: none;
 }
 
 .icon {
-    transition: 0.25s;
     width: 85%;
-}
-
-.iconbox:hover .icon {
-    filter: brightness(0%) invert();
 }

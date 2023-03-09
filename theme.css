@@ -7,7 +7,7 @@ This is a custom theme by Jeremy Noesen
 @keyframes show {
     0% {
         opacity: 0;
-        transform: translateY(5vh);
+        transform: translateY(2.5vh);
     }
     100% {
         opacity: 1
@@ -25,7 +25,7 @@ body {
     font-size: 16px;
     font-weight: lighter;
     animation-name: show;
-    animation-duration: 0.25s;
+    animation-duration: 0.2s;
 }
 
 .grid {
@@ -38,7 +38,7 @@ body {
 }
 
 .box {
-    transition: transform 0.25s cubic-bezier(0.5, 0, 0.25, 2), background-color 0.25s, box-shadow 0.25s cubic-bezier(0.5, 0, 0.25, 2);
+    transition: transform 0.2s cubic-bezier(0.5, 0, 0.25, 2), background-color 0.2s, box-shadow 0.2s cubic-bezier(0.5, 0, 0.25, 2);
     padding: 32px;
     background-color: #565E8720;
     box-shadow: 0 12px 12px #000000BB;
@@ -53,14 +53,14 @@ body {
 
 .box:hover {
     background-color: #565E8730;
-    transform: scale(1.015);
-    box-shadow: 0 18px 18px #000000AA;
+    transform: scale(1.01);
+    box-shadow: 0 14px 14px #000000AA;
 }
 
 .button:hover {
     background-color: #4F58877C;
-    transform: translateY(-12px);
-    box-shadow: 0 24px 24px #000000AA;
+    transform: translateY(-6px);
+    box-shadow: 0 16px 16px #000000AA;
 }
 
 hr {
@@ -101,11 +101,11 @@ hr {
     }
 
     .box:hover {
-        box-shadow: 0 3vw 3vw #000000AA;
+        box-shadow: 0 1.75vw 1.75vw #000000AA;
     }
 
     .button:hover {
-        transform: translateY(-1.5vw);
-        box-shadow: 0 3vw 3vw #000000AA;
+        transform: translateY(-0.75vw);
+        box-shadow: 0 2vw 2vw #000000AA;
     }
 }
