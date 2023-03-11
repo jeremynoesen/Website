@@ -1,6 +1,6 @@
 .grid {
     grid-template-areas:
-          'back about projects resume'
+          'home about projects resume'
           'welcomebox welcomebox github github'
           'welcomebox welcomebox mastodon email';
 }
@@ -23,8 +23,8 @@
     grid-area: projects;
 }
 
-.back {
-    grid-area: back;
+.home {
+    grid-area: home;
 }
 
 .logo {

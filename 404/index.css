@@ -1,6 +1,6 @@
 .grid {
     grid-template-areas:
-          'back about projects resume'
+          'home about projects resume'
           'notfound notfound notfound notfound'
           'notfound notfound notfound notfound';
 }
@@ -11,8 +11,8 @@
     transition: background-position 0.2s, background-color 0.2s, background-image 0.2s, transform 0.2s cubic-bezier(0.5, 0, 0.25, 2), box-shadow 0.2s cubic-bezier(0.5, 0, 0.25, 2), filter 0.2s, translate 0.2s;
 }
 
-.back {
-    grid-area: back;
+.home {
+    grid-area: home;
 }
 
 .resume {

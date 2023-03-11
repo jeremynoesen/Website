@@ -1,6 +1,6 @@
 .grid {
     grid-template-areas:
-          'back about projects resume'
+          'home about projects resume'
           'dysonbp01 dysonbp01info dysonbp01info dysonbp01info'
           'matrixdisplay matrixdisplayinfo matrixdisplayinfo matrixdisplayinfo'
           'site siteinfo siteinfo siteinfo'
@@ -10,8 +10,8 @@
           'couriernew couriernewinfo couriernewinfo couriernewinfo';
 }
 
-.back {
-    grid-area: back;
+.home {
+    grid-area: home;
 }
 
 .resume {
