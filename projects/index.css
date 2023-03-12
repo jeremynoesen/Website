@@ -1,13 +1,20 @@
 .grid {
     grid-template-areas:
-          'home about projects resume'
-          'dysonbp01 dysonbp01info dysonbp01info dysonbp01info'
-          'matrixdisplay matrixdisplayinfo matrixdisplayinfo matrixdisplayinfo'
-          'site siteinfo siteinfo siteinfo'
-          'bonebot bonebotinfo bonebotinfo bonebotinfo'
-          'hardcorelists hardcorelistsinfo hardcorelistsinfo hardcorelistsinfo'
-          'volleyball volleyballinfo volleyballinfo volleyballinfo'
-          'couriernew couriernewinfo couriernewinfo couriernewinfo';
+            'home about projects resume'
+            'personal personal personal personal'
+            'dysonbp01 dysonbp01info dysonbp01info dysonbp01info'
+            'matrixdisplay matrixdisplayinfo matrixdisplayinfo matrixdisplayinfo'
+            'site siteinfo siteinfo siteinfo'
+            'bonebot bonebotinfo bonebotinfo bonebotinfo'
+            'hardcorelists hardcorelistsinfo hardcorelistsinfo hardcorelistsinfo'
+            'volleyball volleyballinfo volleyballinfo volleyballinfo'
+            'couriernew couriernewinfo couriernewinfo couriernewinfo'
+            'school school school school'
+            'cpre480 cpre480info cpre480info cpre480info'
+            'cpre381 cpre381info cpre381info cpre381info'
+            'coms309 coms309info coms309info coms309info'
+            'cpre288 cpre288info cpre288info cpre288info'
+            'cpre186 cpre186info cpre186info cpre186info';
 }
 
 .home {
@@ -24,6 +31,12 @@
 
 .projects {
     grid-area: projects;
+}
+
+.personal {
+    grid-area: personal;
+    text-align: left;
+    justify-content: unset;
 }
 
 .dysonbp01 {
@@ -93,6 +106,62 @@
 
 .couriernewinfo {
     grid-area: couriernewinfo;
+    text-align: left;
+    justify-content: unset;
+}
+
+.school {
+    grid-area: school;
+    text-align: left;
+    justify-content: unset;
+}
+
+.cpre480 {
+    grid-area: cpre480;
+}
+
+.cpre480info {
+    grid-area: cpre480info;
+    text-align: left;
+    justify-content: unset;
+}
+
+.cpre381 {
+    grid-area: cpre381;
+}
+
+.cpre381info {
+    grid-area: cpre381info;
+    text-align: left;
+    justify-content: unset;
+}
+
+.coms309 {
+    grid-area: coms309;
+}
+
+.coms309info {
+    grid-area: coms309info;
+    text-align: left;
+    justify-content: unset;
+}
+
+.cpre288 {
+    grid-area: cpre288;
+}
+
+.cpre288info {
+    grid-area: cpre288info;
+    text-align: left;
+    justify-content: unset;
+}
+
+.cpre186 {
+    grid-area: cpre186;
+}
+
+.cpre186info {
+    grid-area: cpre186info;
     text-align: left;
     justify-content: unset;
 }
