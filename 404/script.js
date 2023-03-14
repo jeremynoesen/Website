@@ -1,7 +1,6 @@
 let player;
 let status = 0;
 let buffer = ["", "", ""];
-
 let style1 = `body {
                 background-image: linear-gradient(to right, #221800, #220000, #001822);
               }
@@ -17,18 +16,16 @@ let style1 = `body {
                 align-items: unset;
                 text-align: left;
               }`;
-
 let styleSheet = document.createElement("style");
 
 /**
- * listen for keystroke patterns
+ * Listen for keystroke patterns
  *
- * @param event key event
+ * @param event Key event
  */
 function keyEvent(event) {
     buffer.shift();
     buffer.push(event.key);
-
     if (buffer.join("") === "sus") {
         if (status !== 1) {
             player.src = "resources/drip.mpga";
@@ -49,7 +46,7 @@ function keyEvent(event) {
 }
 
 /**
- * initialize the listener
+ * Initialize the listener
  */
 function scriptInit() {
     player = document.querySelector("#player");
@@ -57,7 +54,7 @@ function scriptInit() {
 }
 
 /**
- * load script on load, as well as resize script
+ * Load script on page load
  */
 window.onload = () => {
     scriptInit();
