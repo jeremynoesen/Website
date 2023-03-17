@@ -3,9 +3,11 @@
             'home about projects resume'
             'personal personal personal personal'
             'dysonbp01 dysonbp01info dysonbp01info dysonbp01info'
+            'trouttoss trouttossinfo trouttossinfo trouttossinfo'
             'matrixdisplay matrixdisplayinfo matrixdisplayinfo matrixdisplayinfo'
             'site siteinfo siteinfo siteinfo'
             'bonebot bonebotinfo bonebotinfo bonebotinfo'
+            'p3d p3dinfo p3dinfo p3dinfo'
             'hardcorelists hardcorelistsinfo hardcorelistsinfo hardcorelistsinfo'
             'volleyball volleyballinfo volleyballinfo volleyballinfo'
             'couriernew couriernewinfo couriernewinfo couriernewinfo'
@@ -49,6 +51,16 @@
     justify-content: unset;
 }
 
+.trouttoss {
+    grid-area: trouttoss;
+}
+
+.trouttossinfo {
+    grid-area: trouttossinfo;
+    text-align: left;
+    justify-content: unset;
+}
+
 .matrixdisplay {
     grid-area: matrixdisplay;
 }
@@ -75,6 +87,16 @@
 
 .bonebotinfo {
     grid-area: bonebotinfo;
+    text-align: left;
+    justify-content: unset;
+}
+
+.p3d {
+    grid-area: p3d;
+}
+
+.p3dinfo {
+    grid-area: p3dinfo;
     text-align: left;
     justify-content: unset;
 }

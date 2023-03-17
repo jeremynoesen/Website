@@ -1,5 +1,5 @@
 let player;
-let status = 0;
+let status = false;
 let buffer = ["", "", ""];
 let style1 = `body {
                 background-image: linear-gradient(to right, #221800, #220000, #001822);
@@ -27,7 +27,7 @@ function keyEvent(event) {
     buffer.shift();
     buffer.push(event.key);
     if (buffer.join("") === "sus") {
-        if (status !== 1) {
+        if (status !== true) {
             player.src = "resources/drip.mpga";
             player.loop = true;
             player.load();
@@ -35,12 +35,12 @@ function keyEvent(event) {
             styleSheet.innerText = style1;
             document.head.appendChild(styleSheet);
             buffer = ["", "", ""];
-            status = 1;
+            status = true;
         } else {
             player.pause();
             document.head.removeChild(styleSheet);
             buffer = ["", "", ""];
-            status = 0;
+            status = false;
         }
     }
 }
