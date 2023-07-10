@@ -2,7 +2,7 @@
     grid-template-areas:
           'home about projects resume'
           'welcomebox welcomebox github github'
-          'welcomebox welcomebox mastodon email';
+          'welcomebox welcomebox email email';
 }
 
 .welcomebox {
@@ -35,10 +35,6 @@
     grid-area: github;
 }
 
-.mastodon {
-    grid-area: mastodon;
-}
-
 .email {
     grid-area: email;
 }
@@ -48,12 +44,7 @@
     width: 20%;
 }
 
-.mastodon-svg {
-    filter: brightness(0%) invert();
-    width: 50%;
-}
-
 .email-svg {
     filter: brightness(0%) invert();
-    width: 50%;
+    width: 20%;
 }
