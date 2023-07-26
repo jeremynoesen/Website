@@ -12,6 +12,9 @@
             'volleyball volleyballinfo volleyballinfo volleyballinfo'
             'couriernew couriernewinfo couriernewinfo couriernewinfo'
             'school school school school'
+            'coms574 coms574info coms574info coms574info'
+            'coms530 coms530info coms530info coms530info'
+            'cpre491492 cpre491492info cpre491492info cpre491492info'
             'cpre480 cpre480info cpre480info cpre480info'
             'cpre381 cpre381info cpre381info cpre381info'
             'coms309 coms309info coms309info coms309info'
@@ -133,6 +136,36 @@
 
 .school {
     grid-area: school;
+    text-align: left;
+    justify-content: unset;
+}
+
+.coms574 {
+    grid-area: coms574;
+}
+
+.coms574info {
+    grid-area: coms574info;
+    text-align: left;
+    justify-content: unset;
+}
+
+.coms530 {
+    grid-area: coms530;
+}
+
+.coms530info {
+    grid-area: coms530info;
+    text-align: left;
+    justify-content: unset;
+}
+
+.cpre491492 {
+    grid-area: cpre491492;
+}
+
+.cpre491492info {
+    grid-area: cpre491492info;
     text-align: left;
     justify-content: unset;
 }
