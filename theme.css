@@ -40,8 +40,8 @@ body {
 .box {
     transition: transform 0.2s cubic-bezier(0.5, 0, 0.25, 2), background-color 0.2s, box-shadow 0.2s cubic-bezier(0.5, 0, 0.25, 2);
     padding: 32px;
-    background-color: #565E8720;
-    box-shadow: 0 12px 12px #000000BB;
+    background-color: #4C568D21;
+    box-shadow: 0 12px 12px #00000088;
     color: inherit;
     text-decoration: none;
     display: flex;
@@ -52,15 +52,15 @@ body {
 }
 
 .box:hover {
-    background-color: #565E8730;
+    background-color: #48528830;
     transform: scale(1.01);
-    box-shadow: 0 14px 14px #000000AA;
+    box-shadow: 0 14px 14px #00000077;
 }
 
 .button:hover {
-    background-color: #4F58877C;
+    background-color: #404B857C;
     transform: translateY(-6px);
-    box-shadow: 0 16px 16px #000000AA;
+    box-shadow: 0 16px 16px #00000066;
 }
 
 ::-moz-selection {
@@ -88,16 +88,16 @@ body {
 
     .box {
         padding: 4vw;
-        box-shadow: 0 1.5vw 1.5vw #000000BB;
+        box-shadow: 0 1.5vw 1.5vw #00000088;
         border-radius: 4vw;
     }
 
     .box:hover {
-        box-shadow: 0 1.75vw 1.75vw #000000AA;
+        box-shadow: 0 1.75vw 1.75vw #00000077;
     }
 
     .button:hover {
         transform: translateY(-0.75vw);
-        box-shadow: 0 2vw 2vw #000000AA;
+        box-shadow: 0 2vw 2vw #00000066;
     }
 }
