@@ -76,6 +76,7 @@ body {
 .footer {
     color: #4C598DA0;
     line-height: 8px;
+    margin: 5vw auto;
 }
 
 @media screen and (max-width: 1080px) {
