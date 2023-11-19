@@ -73,17 +73,22 @@ body {
     background: white;
 }
 
+.footer {
+    color: #4C598DA0;
+    line-height: 8px;
+}
+
 @media screen and (max-width: 1080px) {
     .grid {
         grid-gap: 2vw;
-        margin: 2.5vw auto;
-        grid-auto-columns: 22vw;
-        grid-auto-rows: 22vw;
+        margin: 5vw auto;
+        grid-auto-columns: 22.5vw;
+        grid-auto-rows: 22.5vw;
     }
 
     body {
         line-height: 3.25vw;
-        font-size: 2.25vw;
+        font-size: 2vw;
     }
 
     .box {
@@ -99,5 +104,9 @@ body {
     .button:hover {
         transform: translateY(-0.75vw);
         box-shadow: 0 2vw 2vw #00000066;
+    }
+
+    .footer {
+        line-height: 1vw;
     }
 }
