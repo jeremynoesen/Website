@@ -8,6 +8,10 @@ let style1 = `body {
               .button:hover {
                 background-color: #AA444444;
               }
+
+              .footer {
+                color: #AA4444FF;
+              }
               
               .notfound {
                 background-image: url(resources/drip.jpg);
