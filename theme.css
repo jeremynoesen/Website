@@ -10,7 +10,7 @@ This is a custom theme by Jeremy Noesen
         transform: translateY(2.5vh);
     }
     100% {
-        opacity: 1
+        opacity: 1;
     }
 }
 

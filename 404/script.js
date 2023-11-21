@@ -1,7 +1,35 @@
 let player;
 let status = false;
 let buffer = ["", "", ""];
-let style1 = `body {
+let style1 = `@keyframes pulse {
+                0% {
+                    transform: scale(1);
+                    background-size: 100%;
+                    filter: brightness(100%);
+                }
+                3% {
+                    transform: scale(1.02);
+                    background-size: 102%;
+                    filter: brightness(102%);
+                }
+                50% {
+                    transform: scale(1);
+                    background-size: 100%;
+                    filter: brightness(100%);
+                }
+                53% {
+                    transform: scale(1.05);
+                    background-size: 105%;
+                    filter: brightness(105%);
+                }
+                100% {
+                    transform: scale(1);
+                    background-size: 100%;
+                    filter: brightness(100%);
+                }
+              }
+
+              body {
                 background-image: linear-gradient(to right, #221800, #220000, #001822);
               }
               
@@ -16,9 +44,11 @@ let style1 = `body {
               .notfound {
                 background-image: url(resources/drip.jpg);
                 background-position-y: 30%;
-                justify-content: unset;
-                align-items: unset;
-                text-align: left;
+                background-position-x: 50%;
+                animation-name: pulse;
+                animation-iteration-count: 57;
+                animation-duration: 1.2765957447s;
+                animation-delay: 0.3191489362s;
               }`;
 let styleSheet = document.createElement("style");
 
@@ -33,7 +63,7 @@ function keyEvent(event) {
     if (buffer.join("") === "sus") {
         if (status !== true) {
             player.src = "resources/drip.mpga";
-            player.loop = true;
+            player.loop = false;
             player.load();
             player.play();
             styleSheet.innerText = style1;
