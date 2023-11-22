@@ -11,7 +11,7 @@ let style = `@keyframes pulse {
                 3% {
                     transform: scale(1.02);
                     background-size: 102%;
-                    filter: brightness(103%);
+                    filter: brightness(104%);
                 }
                 50% {
                     transform: scale(1);
@@ -19,8 +19,8 @@ let style = `@keyframes pulse {
                     filter: brightness(100%);
                 }
                 53% {
-                    transform: scale(1.04);
-                    background-size: 104%;
+                    transform: scale(1.05);
+                    background-size: 105%;
                     filter: brightness(110%);
                 }
                 100% {
