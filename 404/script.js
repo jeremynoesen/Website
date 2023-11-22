@@ -10,7 +10,7 @@ let style1 = `@keyframes pulse {
                 3% {
                     transform: scale(1.02);
                     background-size: 102%;
-                    filter: brightness(102%);
+                    filter: brightness(103%);
                 }
                 50% {
                     transform: scale(1);
@@ -18,9 +18,9 @@ let style1 = `@keyframes pulse {
                     filter: brightness(100%);
                 }
                 53% {
-                    transform: scale(1.05);
-                    background-size: 105%;
-                    filter: brightness(105%);
+                    transform: scale(1.04);
+                    background-size: 104%;
+                    filter: brightness(110%);
                 }
                 100% {
                     transform: scale(1);
@@ -48,7 +48,7 @@ let style1 = `@keyframes pulse {
                 animation-name: pulse;
                 animation-iteration-count: 57;
                 animation-duration: 1.2765957447s;
-                animation-delay: 0.3191489362s;
+                animation-delay: 0.27s;
               }`;
 let styleSheet = document.createElement("style");
 
