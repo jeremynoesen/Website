@@ -1,7 +1,8 @@
 let player;
 let status = false;
 let buffer = ["", "", ""];
-let style1 = `@keyframes pulse {
+let styleSheet = document.createElement("style");
+let style = `@keyframes pulse {
                 0% {
                     transform: scale(1);
                     background-size: 100%;
@@ -48,9 +49,8 @@ let style1 = `@keyframes pulse {
                 animation-name: pulse;
                 animation-iteration-count: 57;
                 animation-duration: 1.2765957447s;
-                animation-delay: 0.27s;
+                animation-delay: 0.275s;
               }`;
-let styleSheet = document.createElement("style");
 
 /**
  * Listen for keystroke patterns
@@ -61,19 +61,16 @@ function keyEvent(event) {
     buffer.shift();
     buffer.push(event.key);
     if (buffer.join("") === "sus") {
+        buffer = ["", "", ""];
         if (status !== true) {
-            player.src = "resources/drip.mpga";
-            player.loop = false;
-            player.load();
             player.play();
-            styleSheet.innerText = style1;
+            styleSheet.innerText = style;
             document.head.appendChild(styleSheet);
-            buffer = ["", "", ""];
             status = true;
         } else {
             player.pause();
+            player.currentTime = 0;
             document.head.removeChild(styleSheet);
-            buffer = ["", "", ""];
             status = false;
         }
     }
@@ -84,6 +81,9 @@ function keyEvent(event) {
  */
 function scriptInit() {
     player = document.querySelector("#player");
+    player.src = "resources/drip.mpga";
+    player.loop = false;
+    player.load();
     document.addEventListener("keypress", keyEvent);
 }
 
