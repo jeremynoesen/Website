@@ -32,7 +32,7 @@ body {
     display: grid;
     place-content: center;
     grid-gap: 16px;
-    margin: 5vw auto;
+    margin: 64px auto;
     grid-auto-columns: 180px;
     grid-auto-rows: 180px;
 }
@@ -75,14 +75,14 @@ body {
 
 .footer {
     color: #4C598DFF;
-    line-height: 8px;
-    margin: 5vw auto;
+    margin: 8px auto;
+    font-size: 12px;
 }
 
 @media screen and (max-width: 1080px) {
     .grid {
         grid-gap: 2vw;
-        margin: 5vw auto;
+        margin: 1vw auto;
         grid-auto-columns: 22.5vw;
         grid-auto-rows: 22.5vw;
     }
@@ -108,7 +108,7 @@ body {
     }
 
     .footer {
-        line-height: 1vw;
-        margin: 5vw auto;
+        margin: 1vw auto;
+        font-size: 1.5vw;
     }
 }
