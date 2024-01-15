@@ -75,8 +75,9 @@ body {
 
 .footer {
     color: #4C598DFF;
-    margin: 8px auto;
-    font-size: 12px;
+    margin: 64px auto;
+    font-size: 16px;
+    line-height: 8px;
 }
 
 @media screen and (max-width: 1080px) {
@@ -108,7 +109,8 @@ body {
     }
 
     .footer {
-        margin: 1vw auto;
-        font-size: 1.5vw;
+        margin: 4vw auto;
+        font-size: 2vw;
+        line-height: 1vw;
     }
 }
