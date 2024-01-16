@@ -11,8 +11,10 @@
             'volleyball volleyballinfo volleyballinfo volleyballinfo'
             'couriernew couriernewinfo couriernewinfo couriernewinfo'
             'school school school school'
+            'cpre558 cpre558info cpre558info cpre558info'
+            'cpre424 cpre424info cpre424info cpre424info'
             'coms574 coms574info coms574info coms574info'
-            'coms530 coms530info coms530info coms530info'
+            'cpre530 cpre530info cpre530info cpre530info'
             'cpre491492 cpre491492info cpre491492info cpre491492info'
             'cpre480 cpre480info cpre480info cpre480info'
             'cpre381 cpre381info cpre381info cpre381info'
@@ -129,6 +131,26 @@
     justify-content: unset;
 }
 
+.cpre558 {
+    grid-area: cpre558;
+}
+
+.cpre558info {
+    grid-area: cpre558info;
+    text-align: left;
+    justify-content: unset;
+}
+
+.cpre424 {
+    grid-area: cpre424;
+}
+
+.cpre424info {
+    grid-area: cpre424info;
+    text-align: left;
+    justify-content: unset;
+}
+
 .coms574 {
     grid-area: coms574;
 }
@@ -139,12 +161,12 @@
     justify-content: unset;
 }
 
-.coms530 {
-    grid-area: coms530;
+.cpre530 {
+    grid-area: cpre530;
 }
 
-.coms530info {
-    grid-area: coms530info;
+.cpre530info {
+    grid-area: cpre530info;
     text-align: left;
     justify-content: unset;
 }
