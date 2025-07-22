@@ -2,6 +2,7 @@
     grid-template-areas:
             'home about projects resume'
             'personal personal personal personal'
+            'aispongelite aispongeliteinfo aispongeliteinfo aispongeliteinfo'
             'dysonbp01 dysonbp01info dysonbp01info dysonbp01info'
             'trouttoss trouttossinfo trouttossinfo trouttossinfo'
             'matrixdisplay matrixdisplayinfo matrixdisplayinfo matrixdisplayinfo'
@@ -9,18 +10,7 @@
             'bonebot bonebotinfo bonebotinfo bonebotinfo'
             'hardcorelists hardcorelistsinfo hardcorelistsinfo hardcorelistsinfo'
             'volleyball volleyballinfo volleyballinfo volleyballinfo'
-            'couriernew couriernewinfo couriernewinfo couriernewinfo'
-            'school school school school'
-            'cpre558 cpre558info cpre558info cpre558info'
-            'cpre424 cpre424info cpre424info cpre424info'
-            'coms574 coms574info coms574info coms574info'
-            'cpre530 cpre530info cpre530info cpre530info'
-            'cpre491492 cpre491492info cpre491492info cpre491492info'
-            'cpre480 cpre480info cpre480info cpre480info'
-            'cpre381 cpre381info cpre381info cpre381info'
-            'coms309 coms309info coms309info coms309info'
-            'cpre288 cpre288info cpre288info cpre288info'
-            'cpre186 cpre186info cpre186info cpre186info';
+            'couriernew couriernewinfo couriernewinfo couriernewinfo';
 }
 
 .home {
@@ -41,6 +31,16 @@
 
 .personal {
     grid-area: personal;
+    text-align: left;
+    justify-content: unset;
+}
+
+.aispongelite {
+    grid-area: aispongelite;
+}
+
+.aispongeliteinfo {
+    grid-area: aispongeliteinfo;
     text-align: left;
     justify-content: unset;
 }
@@ -121,112 +121,6 @@
 
 .couriernewinfo {
     grid-area: couriernewinfo;
-    text-align: left;
-    justify-content: unset;
-}
-
-.school {
-    grid-area: school;
-    text-align: left;
-    justify-content: unset;
-}
-
-.cpre558 {
-    grid-area: cpre558;
-}
-
-.cpre558info {
-    grid-area: cpre558info;
-    text-align: left;
-    justify-content: unset;
-}
-
-.cpre424 {
-    grid-area: cpre424;
-}
-
-.cpre424info {
-    grid-area: cpre424info;
-    text-align: left;
-    justify-content: unset;
-}
-
-.coms574 {
-    grid-area: coms574;
-}
-
-.coms574info {
-    grid-area: coms574info;
-    text-align: left;
-    justify-content: unset;
-}
-
-.cpre530 {
-    grid-area: cpre530;
-}
-
-.cpre530info {
-    grid-area: cpre530info;
-    text-align: left;
-    justify-content: unset;
-}
-
-.cpre491492 {
-    grid-area: cpre491492;
-}
-
-.cpre491492info {
-    grid-area: cpre491492info;
-    text-align: left;
-    justify-content: unset;
-}
-
-.cpre480 {
-    grid-area: cpre480;
-}
-
-.cpre480info {
-    grid-area: cpre480info;
-    text-align: left;
-    justify-content: unset;
-}
-
-.cpre381 {
-    grid-area: cpre381;
-}
-
-.cpre381info {
-    grid-area: cpre381info;
-    text-align: left;
-    justify-content: unset;
-}
-
-.coms309 {
-    grid-area: coms309;
-}
-
-.coms309info {
-    grid-area: coms309info;
-    text-align: left;
-    justify-content: unset;
-}
-
-.cpre288 {
-    grid-area: cpre288;
-}
-
-.cpre288info {
-    grid-area: cpre288info;
-    text-align: left;
-    justify-content: unset;
-}
-
-.cpre186 {
-    grid-area: cpre186;
-}
-
-.cpre186info {
-    grid-area: cpre186info;
     text-align: left;
     justify-content: unset;
 }
