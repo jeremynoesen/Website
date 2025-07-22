@@ -3,8 +3,8 @@
           'home about projects resume'
           'portrait portrait intro intro'
           'portrait portrait intro intro'
-          'bio1 bio1 bio2 bio2'
-          'bio1 bio1 bio2 bio2';
+          'bio bio bio bio'
+          'bio bio bio bio';
 }
 
 .home {
@@ -35,14 +35,8 @@
     justify-content: unset;
 }
 
-.bio1 {
-    grid-area: bio1;
-    text-align: left;
-    justify-content: unset;
-}
-
-.bio2 {
-    grid-area: bio2;
+.bio {
+    grid-area: bio;
     text-align: left;
     justify-content: unset;
 }
