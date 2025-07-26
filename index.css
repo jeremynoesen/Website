@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --header-background-transparent: #000000c0;
+    --header-background-opaque: #000000ff;
+    --header-text-color: #ffffffff;
+    --card-background-transparent: #ffffffc0;
+    --card-background-opaque: #ffffffff;
+    --card-text-color: #000000ff;
+    --footer-text-color: #ffffffff;
+}
+
+body {
+    margin: 8px;
+    transition: margin 0.2s;
+    background-image: url("./resources/Background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid var(--card-text-color);
+    margin: 0 32px 32px 32px;
+}
+
+.header {
+    background-color: var(--header-background-transparent);
+    backdrop-filter: blur(32px) saturate(200%);
+    border-radius: 20px;
+    display: flex;
+    height: 80px;
+    max-width: 800px;
+    margin: auto;
+    transition: border-radius 0.2s;
+}
+
+.header-logo {
+    background-color: var(--header-background-opaque);
+    border-radius: 12px;
+    margin: 8px;
+    height: 64px;
+}
+
+.header-text {
+    margin: auto 8px;
+    padding-bottom: 5px;
+    font-size: 40px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 300;
+    color: var(--header-text-color);
+    transition: 0.2s;
+}
+
+.header-button-container {
+    display: flex;
+    margin: auto 8px auto auto;
+    background-color: var(--header-background-opaque);
+    border-radius: 12px;
+    height: 64px;
+}
+
+.header-button {
+    transition: opacity 0.1s;
+    border-radius: 12px;
+}
+
+.header-button:hover {
+    transition: opacity 0.1s;
+    opacity: 50%;
+}
+
+.header-button-icon {
+    filter: brightness(0%) invert();
+    width: 32px;
+    height: 32px;
+    margin: 16px;
+}
+
+.card {
+    background-color: var(--card-background-transparent);
+    backdrop-filter: blur(32px) saturate(200%);
+    border-radius: 40px;
+    margin: 8px auto;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    transition: background-color 0.5s;
+
+}
+
+.card-header {
+    background-color: var(--card-background-opaque);
+    border-radius: 32px;
+    margin: 8px 8px 32px 8px;
+    height: 64px;
+    display: flex;
+    transition: background-color 0.5s;
+}
+
+.card-header-text {
+    margin: auto;
+    padding-bottom: 5px;
+    font-size: 32px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    color: var(--card-text-color);
+    transition: background-color 0.5s;
+}
+
+.about-text {
+    color: var(--card-text-color);
+    font-size: 16px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 32px 32px 32px;
+    transition: background-color 0.5s;
+}
+
+.summary-text {
+    color: var(--card-text-color);
+    font-size: 16px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0 32px 16px 32px;
+    transition: background-color 0.5s;
+}
+
+.portrait {
+    width: 35%;
+    border-radius: 50%;
+    margin: 0 auto 32px auto;
+    transition: width 0.2s;
+}
+
+.project {
+    display: flex;
+    align-items: left;
+    margin: 0 32px 32px 32px;
+    transition: opacity 0.1s;
+}
+
+.project:hover {
+    transition: opacity 0.1s;
+    opacity: 50%;
+}
+
+.project-logo {
+    width: 48px;
+    height: 48px;
+}
+
+.project-text {
+    margin-left: 16px;
+}
+
+.project-name {
+    color: var(--card-text-color);
+    font-size: 16px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    transition: background-color 0.5s;
+    margin: 0 0 4.5px 0;
+}
+
+.project-description {
+    color: var(--card-text-color);
+    font-size: 16px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    transition: background-color 0.5s;
+    margin: 0;
+}
+
+.footer {
+    text-align: center;
+    color: var(--footer-text-color);
+    font-size: 12px;
+    font-family: "Barlow", sans-serif;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 560px) {
+    body {
+        margin: 0;
+        transition: margin 0.2s;
+    }
+
+    .header {
+        border-radius: 0;
+        transition: border-radius 0.2s;
+    }
+
+    .header-text {
+        visibility: hidden;
+        font-size: 0;
+        margin: auto 0 auto 0;
+        padding: 0;
+        transition: 0.2s;
+    }
+
+    .portrait {
+        width: 50%;
+        transition: width 0.2s;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --card-background-transparent: #000000c0;
+        --card-background-opaque: #000000ff;
+        --card-text-color: #ffffffff;
+    }
+}

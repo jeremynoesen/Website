@@ -1,27 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <title>Jeremy Noesen</title>
-    <link rel="shortcut icon" type="image/png" href="home/resources/Logo.png"/>
-    <meta property="keywords" content="jeremy,noesen,jeremy noesen,iowa state,portfolio,resume,about"/>
-    <meta property="author" content="Jeremy Noesen"/>
-    <meta property="description" content="Jeremy Noesen's Website"/>
-    <meta property="og:description" content="Jeremy Noesen's Website"/>
-    <meta property="og:image" content="https:jeremynoesen.xyz/home/resources/Logo.png"/>
-    <meta property="og:image:type" content="image/png"/>
-    <meta property="og:image:width" content="512"/>
-    <meta property="og:image:height" content="512"/>
-    <meta property="og:title" content="Jeremy Noesen"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://jeremynoesen.xyz/"/>
-    <meta http-equiv="refresh" content="0; url=https://jeremynoesen.xyz/home/">
-    <meta name="twitter:title" content="Jeremy Noesen">
-    <meta name="twitter:description" content="Jeremy Noesen's Website">
-    <meta name="twitter:image" content="https:jeremynoesen.xyz/home/resources/Logo.png">
-    <meta name="twitter:card" content="summary">
-    <meta name="theme-color" content="#01040e">
-</head>
-<body>
-</body>
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Jeremy Noesen's Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="shortcut icon" type="image/png" href="./resources/Logo.png"/>
+        <meta property="keywords" content="jeremy,noesen,portfolio,resume,about,github,email"/>
+        <meta property="author" content="Jeremy Noesen"/>
+        <meta property="description" content="Jeremy Noesen's Portfolio"/>
+        <meta property="og:description" content="Jeremy Noesen's Portfolio"/>
+        <meta property="og:image" content="./resources/Logo.png"/>
+        <meta property="og:image:type" content="image/png"/>
+        <meta property="og:image:width" content="512"/>
+        <meta property="og:image:height" content="512"/>
+        <meta property="og:title" content="About"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://jeremynoesen.xyz"/>
+        <meta name="twitter:title" content="Jeremy Noesen">
+        <meta name="twitter:description" content="Jeremy Noesen's Portfolio">
+        <meta name="twitter:image" content="./resources/Logo.png">
+        <meta name="twitter:card" content="summary">
+        <meta name="theme-color" content="#3771c8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+
+    <body>
+
+        <div class="header">
+            <img src="./resources/Logo.svg" alt="Logo" class="header-logo"/>
+            <p class="header-text">Jeremy Noesen</p>
+            <div class="header-button-container">
+                <a href="https://github.com/jeremynoesen" title="View on GitHub" class="header-button">
+                    <img src="./resources/Github.svg" alt="GitHub logo" class="header-button-icon"/>
+                </a> 
+                <a href="mailto:mail@jeremynoesen.xyz" title="Contact via email" class="header-button">
+                    <img src="./resources/Gmail.svg"  alt="Gmail logo" class="header-button-icon"/>
+                </a> 
+                <a href="./resources/Resume.pdf" title="View resume" class="header-button">
+                    <img src="./resources/Resume.svg"  alt="Resume logo" class="header-button-icon"/>
+                </a> 
+            </div>          
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <p class="card-header-text">About</p>
+            </div>
+            <img src="./resources/Portrait.jpg" alt="Jeremy Noesen" class="portrait"/>
+            <p class="summary-text">A recent graduate from Iowa State University with a Master of Engineering degree in Computer Engineering. Interested in embedded software and smart home devices.</p>
+            <p class="about-text">From an early age, I was obsessed with a electrical components stored in my father's garage. I would constantly try to make random circuits with them, with growing complexity over time. Eventually, I was introduced to microcontrollers and programming. Later, I began to create Minecraft plugins, which made me fall in love with creating software. I then dabbled in Discord bots and web development. These were fun for a short perioud of time, but for me, "home" is where the heart is. Thanks to my experience at Iowa State University, I have discovered a strong interest in embedded software, especially in relation to smart home solutions.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <p class="card-header-text">Projects</p>
+            </div>
+            <a class="project" href="https://github.com/jeremynoesen/AISpongeLite" title="View AI Sponge Lite on GitHub">
+                <img src="./resources/AISpongeLite.svg" alt="AI Sponge Lite Logo" class="project-logo"/>
+                <div class="project-text">
+                    <p class="project-name">AI Sponge Lite</p>
+                    <p class="project-description">A Discord bot written in Python that generates parody AI Sponge audio episodes, chats, and TTS.</p>
+                </div>
+            </a>
+            <a class="project" href="https://github.com/jeremynoesen/homebridge-dyson-bp01" title="View homebridge-dyson-bp01 on GitHub">
+                <img src="./resources/homebridge-dyson-bp01.svg" alt="homebridge-dyson-bp01 Logo" class="project-logo"/>
+                <div class="project-text">
+                    <p class="project-name">homebridge-dyson-bp01</p>
+                    <p class="project-description">A Homebridge plugin written in TypeScript that adds a Dyson BP01 to HomeKit using a BroadLink RM.</p>
+                </div>
+            </a>
+            <a class="project" href="https://github.com/jeremynoesen/MatrixDisplay" title="View MatrixDisplay on GitHub">
+                <img src="./resources/MatrixDisplay.svg" alt="MatrixDisplay Logo" class="project-logo"/>
+                <div class="project-text">
+                    <p class="project-name">MatrixDisplay</p>
+                    <p class="project-description">A Python program used to display images on the Pimoroni Unicorn HAT for Raspberry Pi through a web interface.</p>
+                </div>
+            </a>  
+            <a class="project" href="https://github.com/jeremynoesen/BoneBot" title="View BoneBot on GitHub">
+                <img src="./resources/BoneBot.svg" alt="BoneBot Logo" class="project-logo"/>
+                <div class="project-text">
+                    <p class="project-name">BoneBot</p>
+                    <p class="project-description">A self-hosted, modular Discord bot written in Kotlin that can respond and react to messages, as well as add built-in and custom commands to a server.</p>
+                </div>
+            </a>  
+            <a class="project" href="https://github.com/jeremynoesen/VolleyBall" title="View VolleyBall on GitHub">
+                <img src="./resources/VolleyBall.svg" alt="VolleyBall Logo" class="project-logo"/>
+                <div class="project-text">
+                    <p class="project-name">VolleyBall</p>
+                    <p class="project-description">A Spigot Minecraft Java plugin that adds a simple volleyball minigame with support for multiple courts.</p>
+                </div>
+            </a>  
+            <a class="project" href="https://github.com/jeremynoesen/CourierNew" title="View CourierNew on GitHub">
+                <img src="./resources/CourierNew.svg" alt="CourierNew Logo" class="project-logo"/>
+                <div class="project-text">
+                    <p class="project-name">CourierNew</p>
+                    <p class="project-description">A Spigot Minecraft Java plugin that allows users to send letters in the form of books and receive them through couriers.</p>
+                </div>
+            </a>  
+        </div>
+
+        <div class="footer">
+            <p>Copyright ©2021-2025 Jeremy Noesen. All rights reserved.</p>
+        </div>
+
+    </body>
+
 </html>
