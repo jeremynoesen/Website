@@ -16,12 +16,12 @@ body {
 
 a {
     text-decoration: none;
+    transition: opacity 0.1s;
 }
 
-hr {
-    border: none;
-    border-top: 1px solid var(--text-color);
-    margin: 0 32px 32px 32px;
+a:hover {
+    transition: opacity 0.1s;
+    opacity: 50%;
 }
 
 .header {
@@ -65,11 +65,6 @@ hr {
 .header-button {
     transition: opacity 0.1s;
     border-radius: 32px;
-}
-
-.header-button:hover {
-    transition: opacity 0.1s;
-    opacity: 50%;
 }
 
 .header-button-icon {
@@ -145,18 +140,10 @@ hr {
     transition: opacity 0.1s;
 }
 
-.project:hover {
-    transition: opacity 0.1s;
-    opacity: 50%;
-}
-
 .project-logo {
     width: 48px;
     height: 48px;
-}
-
-.project-text {
-    margin-left: 16px;
+    margin-right: 16px;
 }
 
 .project-name {
