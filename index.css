@@ -173,7 +173,7 @@ a:hover {
     font-weight: normal;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 600px) {
     .header-text {
         visibility: hidden;
         font-size: 0;
