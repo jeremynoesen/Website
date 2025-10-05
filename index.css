@@ -119,8 +119,8 @@ a:hover {
 .summary-text {
     color: var(--text-color);
     font-size: 16px;
-    font-family: "Barlow", sans-serif;
-    font-weight: 600;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
     line-height: 24px;
     margin: 0 32px 16px 32px;
     transition: color 0.5s;
@@ -149,8 +149,8 @@ a:hover {
 .project-name {
     color: var(--text-color);
     font-size: 16px;
-    font-family: "Barlow", sans-serif;
-    font-weight: 600;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
     transition: color 0.5s;
     margin: 0 0 4.5px 0;
 }
