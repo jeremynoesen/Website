@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-    --background-transparent: #ffffffc0;
+    --background-transparent: #ffffffe0;
     --background-opaque: #ffffffff;
     --text-color: #000000ff;
 }
@@ -26,7 +26,6 @@ a:hover {
 
 .header {
     background-color: var(--background-transparent);
-    backdrop-filter: blur(32px) saturate(200%);
     border-radius: 40px;
     display: flex;
     height: 80px;
@@ -77,7 +76,6 @@ a:hover {
 
 .card {
     background-color: var(--background-transparent);
-    backdrop-filter: blur(32px) saturate(200%);
     border-radius: 40px;
     margin: 8px auto;
     max-width: 800px;
@@ -190,7 +188,7 @@ a:hover {
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background-transparent: #000000c0;
+        --background-transparent: #000000e0;
         --background-opaque: #000000ff;
         --text-color: #ffffffff;
     }
