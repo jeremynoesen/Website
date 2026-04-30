@@ -31,7 +31,6 @@ a:hover {
     height: 80px;
     max-width: 800px;
     margin: auto;
-    transition: background-color 0.5s;
 }
 
 .header-logo {
@@ -39,7 +38,6 @@ a:hover {
     border-radius: 32px;
     margin: 8px;
     height: 64px;
-    transition: background-color 0.5s;
 }
 
 .header-text {
@@ -49,7 +47,6 @@ a:hover {
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 300;
     color: var(--text-color);
-    transition: visibility 0.2s, font-size 0.2s, margin 0.2s, padding 0.2s, color 0.5s;
 }
 
 .header-button-container {
@@ -58,11 +55,9 @@ a:hover {
     background-color: var(--background-light);
     border-radius: 32px;
     height: 64px;
-    transition: background-color 0.5s;
 }
 
 .header-button {
-    transition: opacity 0.1s;
     border-radius: 32px;
 }
 
@@ -71,7 +66,6 @@ a:hover {
     width: 32px;
     height: 32px;
     margin: 16px;
-    transition: filter 0.5s;
 }
 
 .card {
@@ -81,7 +75,6 @@ a:hover {
     max-width: 800px;
     display: flex;
     flex-direction: column;
-    transition: background-color 0.5s;
 
 }
 
@@ -91,7 +84,6 @@ a:hover {
     margin: 8px 8px 32px 8px;
     height: 64px;
     display: flex;
-    transition: background-color 0.5s;
 }
 
 .card-header-text {
@@ -101,7 +93,6 @@ a:hover {
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 300;
     color: var(--text-color);
-    transition: color 0.5s;
 }
 
 .about-text {
@@ -111,7 +102,6 @@ a:hover {
     font-weight: 400;
     line-height: 24px;
     margin: 0 32px 32px 32px;
-    transition: color 0.5s;
 }
 
 .summary-text {
@@ -121,7 +111,6 @@ a:hover {
     font-weight: 500;
     line-height: 24px;
     margin: 0 32px 16px 32px;
-    transition: color 0.5s;
 }
 
 .portrait {
@@ -129,14 +118,12 @@ a:hover {
     border-radius: 16px;
     margin: 0 32px 32px 32px;
     float: left;
-    transition: width 0.2s;
 }
 
 .project {
     display: flex;
     align-items: left;
     margin: 0 32px 32px 32px;
-    transition: opacity 0.1s;
 }
 
 .project-logo {
@@ -150,7 +137,6 @@ a:hover {
     font-size: 18px;
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 500;
-    transition: color 0.5s;
     margin: 0 0 4px 0;
 }
 
@@ -160,7 +146,6 @@ a:hover {
     font-family: "Barlow", sans-serif;
     font-weight: 400;
     line-height: 24px;
-    transition: color 0.5s;
     margin: 0;
 }
 
