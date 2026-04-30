@@ -43,7 +43,7 @@ a:hover {
 .header-text {
     margin: auto 8px;
     padding-bottom: 6px;
-    font-size: 40px;
+    font-size: 32px;
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 300;
     color: var(--text-color);
