@@ -43,7 +43,7 @@ a:hover {
 .header-text {
     margin: auto 8px;
     padding-bottom: 6px;
-    font-size: 32px;
+    font-size: 40px;
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 300;
     color: var(--text-color);
@@ -155,4 +155,14 @@ a:hover {
     font-size: 12px;
     font-family: "Barlow", sans-serif;
     font-weight: normal;
+}
+
+@media screen and (max-width: 600px) {
+    .header-text {
+        display: none;
+    }
+
+    .portrait {
+        width: 100px;
+    }
 }
