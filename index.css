@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-    --background-transparent: #ffffffe0;
-    --background-opaque: #ffffffff;
-    --text-color: #000000ff;
+    --background-dark: #101118ff;
+    --background-light: #202230ff;
+    --text-color: #ffffffff;
 }
 
 body {
@@ -25,7 +25,7 @@ a:hover {
 }
 
 .header {
-    background-color: var(--background-transparent);
+    background-color: var(--background-dark);
     border-radius: 40px;
     display: flex;
     height: 80px;
@@ -35,7 +35,7 @@ a:hover {
 }
 
 .header-logo {
-    background-color: var(--background-opaque);
+    background-color: var(--background-light);
     border-radius: 32px;
     margin: 8px;
     height: 64px;
@@ -44,8 +44,8 @@ a:hover {
 
 .header-text {
     margin: auto 8px;
-    padding-bottom: 5px;
-    font-size: 40px;
+    padding-bottom: 6px;
+    font-size: 32px;
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 300;
     color: var(--text-color);
@@ -55,7 +55,7 @@ a:hover {
 .header-button-container {
     display: flex;
     margin: auto 8px auto auto;
-    background-color: var(--background-opaque);
+    background-color: var(--background-light);
     border-radius: 32px;
     height: 64px;
     transition: background-color 0.5s;
@@ -67,7 +67,7 @@ a:hover {
 }
 
 .header-button-icon {
-    filter: brightness(0%);
+    filter: brightness(0%) invert();
     width: 32px;
     height: 32px;
     margin: 16px;
@@ -75,7 +75,7 @@ a:hover {
 }
 
 .card {
-    background-color: var(--background-transparent);
+    background-color: var(--background-dark);
     border-radius: 40px;
     margin: 8px auto;
     max-width: 800px;
@@ -86,7 +86,7 @@ a:hover {
 }
 
 .card-header {
-    background-color: var(--background-opaque);
+    background-color: var(--background-light);
     border-radius: 32px;
     margin: 8px 8px 32px 8px;
     height: 64px;
@@ -95,11 +95,11 @@ a:hover {
 }
 
 .card-header-text {
-    margin: auto;
-    padding-bottom: 5px;
+    margin: auto auto auto 32px;
+    padding-bottom: 6px;
     font-size: 32px;
     font-family: "Barlow Condensed", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     color: var(--text-color);
     transition: color 0.5s;
 }
@@ -125,9 +125,10 @@ a:hover {
 }
 
 .portrait {
-    width: 35%;
-    border-radius: 50%;
-    margin: 0 auto 32px auto;
+    width: 200px;
+    border-radius: 16px;
+    margin: 0 32px 32px 32px;
+    float: left;
     transition: width 0.2s;
 }
 
@@ -150,7 +151,7 @@ a:hover {
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 500;
     transition: color 0.5s;
-    margin: 0 0 4.5px 0;
+    margin: 0 0 4px 0;
 }
 
 .project-description {
@@ -165,36 +166,8 @@ a:hover {
 
 .footer {
     text-align: center;
-    color: #ffffffff;
+    color: var(--text-color);
     font-size: 12px;
     font-family: "Barlow", sans-serif;
     font-weight: normal;
-}
-
-@media screen and (max-width: 600px) {
-    .header-text {
-        visibility: hidden;
-        font-size: 0;
-        margin: auto 0 auto 0;
-        padding: 0;
-        transition: visibility 0.2s, font-size 0.2s, margin 0.2s, padding 0.2s;
-    }
-
-    .portrait {
-        width: 50%;
-        transition: width 0.2s;
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background-transparent: #000000e0;
-        --background-opaque: #000000ff;
-        --text-color: #ffffffff;
-    }
-
-    .header-button-icon {
-        transition: filter 0.5s;
-        filter: brightness(0%) invert();
-    }
 }
